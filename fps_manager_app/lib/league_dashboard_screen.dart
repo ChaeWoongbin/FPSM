@@ -317,63 +317,65 @@ class _LeagueDashboardScreenState extends State<LeagueDashboardScreen> {
       builder: (context) => AlertDialog(
         content: SizedBox(
           width: 600,
-          child: Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Expanded(
-                flex: 1,
-                child: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Image.asset(p.sourcePortrait.isNotEmpty ? p.sourcePortrait : p.portrait, width: 250, height: 250, fit: BoxFit.cover),
-                    const SizedBox(height: 16),
-                    Text(p.name, style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
-                    Text('OVR ${p.overall}', style: const TextStyle(fontSize: 20, color: Colors.amber)),
-                  ],
+          child: SingleChildScrollView(
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Expanded(
+                  flex: 1,
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Image.asset(p.sourcePortrait.isNotEmpty ? p.sourcePortrait : p.portrait, width: 250, height: 250, fit: BoxFit.cover),
+                      const SizedBox(height: 16),
+                      Text(p.name, style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
+                      Text('OVR ${p.overall}', style: const TextStyle(fontSize: 20, color: Colors.amber)),
+                    ],
+                  ),
                 ),
-              ),
-              const SizedBox(width: 24),
-              Expanded(
-                flex: 2,
-                child: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    const Text('선수 정보', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
-                    const Divider(),
-                    Text(p.description),
-                    const SizedBox(height: 16),
-                    const Text('시즌 기록', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
-                    const Divider(),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceAround,
-                      children: [
-                        _statBox('K', stats.kills.toString()),
-                        _statBox('D', stats.deaths.toString()),
-                        _statBox('A', stats.assists.toString()),
-                        _statBox('KDA', stats.kda.toStringAsFixed(2)),
-                      ],
-                    ),
-                    const SizedBox(height: 16),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceAround,
-                      children: [
-                        _statBox('승리', stats.wins.toString(), color: Colors.green),
-                        _statBox('패배', stats.losses.toString(), color: Colors.red),
-                        _statBox('승률', '${(stats.winRate * 100).toStringAsFixed(1)}%'),
-                      ],
-                    ),
-                    const SizedBox(height: 24),
-                    const Text('세부 능력치', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
-                    const Divider(),
-                    _buildStatBar('에임', p.aim),
-                    _buildStatBar('반응속도', p.reaction),
-                    _buildStatBar('상황판단', p.judgment),
-                    _buildStatBar('공격성', p.aggression),
-                  ],
+                const SizedBox(width: 24),
+                Expanded(
+                  flex: 2,
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      const Text('선수 정보', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+                      const Divider(),
+                      Text(p.description),
+                      const SizedBox(height: 16),
+                      const Text('시즌 기록', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+                      const Divider(),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceAround,
+                        children: [
+                          _statBox('K', stats.kills.toString()),
+                          _statBox('D', stats.deaths.toString()),
+                          _statBox('A', stats.assists.toString()),
+                          _statBox('KDA', stats.kda.toStringAsFixed(2)),
+                        ],
+                      ),
+                      const SizedBox(height: 16),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceAround,
+                        children: [
+                          _statBox('승리', stats.wins.toString(), color: Colors.green),
+                          _statBox('패배', stats.losses.toString(), color: Colors.red),
+                          _statBox('승률', '${(stats.winRate * 100).toStringAsFixed(1)}%'),
+                        ],
+                      ),
+                      const SizedBox(height: 24),
+                      const Text('세부 능력치', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+                      const Divider(),
+                      _buildStatBar('에임', p.aim),
+                      _buildStatBar('반응속도', p.reaction),
+                      _buildStatBar('상황판단', p.judgment),
+                      _buildStatBar('공격성', p.aggression),
+                    ],
+                  ),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
         ),
         actions: [
@@ -621,8 +623,8 @@ class _LeagueDashboardScreenState extends State<LeagueDashboardScreen> {
   }
 
   void _playMatch(Matchup match) async {
-    // 맵 랜덤 선택 로직!
-    final maps = ['map_bind', 'map_haven', 'map_split', 'map_ascent'];
+    // 맵 랜덤 선택 로직! (HTML 엔진에 정의된 맵 ID 사용)
+    final maps = ['industrial', 'ring', 'cross', 'switchback', 'pinhole'];
     final randomMap = maps[Random().nextInt(maps.length)];
 
     final config = MatchConfig(
