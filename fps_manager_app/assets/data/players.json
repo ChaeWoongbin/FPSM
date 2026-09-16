@@ -1,0 +1,5660 @@
+[
+	{
+		"battle": 62,
+		"club_id": "club_0",
+		"description": "자원을 모아 후반 병력을 준비하는 네크로폴리스 선수.",
+		"faction_id": "necropolis",
+		"faction_name": "네크로폴리스",
+		"hero": {
+			"name": "죽음의 기사",
+			"sprite": "07_death_knight"
+		},
+		"hero_index": 0,
+		"id": "club_0_sub_4",
+		"is_reserve": true,
+		"name": "도겸",
+		"operation": 80,
+		"portrait": {
+			"alias_of": "player_00",
+			"asset_id": "player_00",
+			"path": "assets/players/player_00.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 4,
+		"skills": {
+			"aggression": 26,
+			"judgment": 71,
+			"macro": 80,
+			"micro": 62,
+			"multitask": 70,
+			"scouting": 61,
+			"teamwork": 78
+		},
+		"source_profile_index": 4,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "성장 선호 · 신중함"
+	},
+	{
+		"battle": 62,
+		"club_id": "club_10",
+		"description": "자원을 모아 후반 병력을 준비하는 네크로폴리스 선수.",
+		"faction_id": "necropolis",
+		"faction_name": "네크로폴리스",
+		"hero": {
+			"name": "죽음의 기사",
+			"sprite": "07_death_knight"
+		},
+		"hero_index": 0,
+		"id": "club_10_player_0",
+		"is_reserve": false,
+		"name": "규민",
+		"operation": 80,
+		"portrait": {
+			"alias_of": "club_6_player_0",
+			"asset_id": "club_6_player_0",
+			"path": "assets/players/club_6_player_0.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 26,
+			"judgment": 71,
+			"macro": 80,
+			"micro": 62,
+			"multitask": 70,
+			"scouting": 61,
+			"teamwork": 78
+		},
+		"source_profile_index": 4,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "성장 선호 · 신중함"
+	},
+	{
+		"battle": 83,
+		"club_id": "club_10",
+		"description": "초반 교전과 압박을 선호하는 네크로폴리스 선수.",
+		"faction_id": "necropolis",
+		"faction_name": "네크로폴리스",
+		"hero": {
+			"name": "네크로맨서",
+			"sprite": "08_necromancer"
+		},
+		"hero_index": 1,
+		"id": "club_10_player_1",
+		"is_reserve": false,
+		"name": "지안",
+		"operation": 59,
+		"portrait": {
+			"alias_of": "club_6_player_1",
+			"asset_id": "club_6_player_1",
+			"path": "assets/players/club_6_player_1.png"
+		},
+		"preference": 0.9,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 86,
+			"judgment": 71,
+			"macro": 59,
+			"micro": 83,
+			"multitask": 72,
+			"scouting": 68,
+			"teamwork": 61
+		},
+		"source_profile_index": 5,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "교전 선호 · 과감함"
+	},
+	{
+		"battle": 62,
+		"club_id": "club_10",
+		"description": "자원을 모아 후반 병력을 준비하는 네크로폴리스 선수.",
+		"faction_id": "necropolis",
+		"faction_name": "네크로폴리스",
+		"hero": {
+			"name": "죽음의 기사",
+			"sprite": "07_death_knight"
+		},
+		"hero_index": 0,
+		"id": "club_10_player_2",
+		"is_reserve": false,
+		"name": "태현",
+		"operation": 80,
+		"portrait": {
+			"alias_of": "club_6_player_2",
+			"asset_id": "club_6_player_2",
+			"path": "assets/players/club_6_player_2.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 26,
+			"judgment": 71,
+			"macro": 80,
+			"micro": 62,
+			"multitask": 70,
+			"scouting": 61,
+			"teamwork": 78
+		},
+		"source_profile_index": 4,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "성장 선호 · 신중함"
+	},
+	{
+		"battle": 83,
+		"club_id": "club_10",
+		"description": "초반 교전과 압박을 선호하는 네크로폴리스 선수.",
+		"faction_id": "necropolis",
+		"faction_name": "네크로폴리스",
+		"hero": {
+			"name": "네크로맨서",
+			"sprite": "08_necromancer"
+		},
+		"hero_index": 1,
+		"id": "club_10_player_3",
+		"is_reserve": false,
+		"name": "보라",
+		"operation": 59,
+		"portrait": {
+			"alias_of": "club_6_player_3",
+			"asset_id": "club_6_player_3",
+			"path": "assets/players/club_6_player_3.png"
+		},
+		"preference": 0.9,
+		"roster_slot": 3,
+		"skills": {
+			"aggression": 86,
+			"judgment": 71,
+			"macro": 59,
+			"micro": 83,
+			"multitask": 72,
+			"scouting": 68,
+			"teamwork": 61
+		},
+		"source_profile_index": 5,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "교전 선호 · 과감함"
+	},
+	{
+		"battle": 60,
+		"club_id": "club_10",
+		"description": "광산 확보와 병력 보존을 선호하는 램파트 선수.",
+		"faction_id": "rampart",
+		"faction_name": "램파트",
+		"hero": {
+			"name": "드루이드",
+			"sprite": "03_druid"
+		},
+		"hero_index": 0,
+		"id": "club_10_sub_4",
+		"is_reserve": true,
+		"name": "강민",
+		"operation": 82,
+		"portrait": {
+			"alias_of": "club_6_player_0",
+			"asset_id": "club_6_player_0",
+			"path": "assets/players/club_6_player_0.png"
+		},
+		"preference": -0.7,
+		"roster_slot": 4,
+		"skills": {
+			"aggression": 22,
+			"judgment": 71,
+			"macro": 82,
+			"micro": 60,
+			"multitask": 70,
+			"scouting": 61,
+			"teamwork": 78
+		},
+		"source_profile_index": 2,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "성장 선호 · 자원 확보"
+	},
+	{
+		"battle": 57,
+		"club_id": "club_11",
+		"description": "수입을 먼저 확보하는 타워 운영형 선수.",
+		"faction_id": "tower",
+		"faction_name": "타워",
+		"hero": {
+			"name": "지니",
+			"sprite": "05_genie"
+		},
+		"hero_index": 0,
+		"id": "club_11_player_0",
+		"is_reserve": false,
+		"name": "민호",
+		"operation": 84,
+		"portrait": {
+			"alias_of": "club_7_player_0",
+			"asset_id": "club_7_player_0",
+			"path": "assets/players/club_7_player_0.png"
+		},
+		"preference": -0.9,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 14,
+			"judgment": 71,
+			"macro": 84,
+			"micro": 57,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 75
+		},
+		"source_profile_index": 6,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "성장 선호 · 장기전"
+	},
+	{
+		"battle": 79,
+		"club_id": "club_11",
+		"description": "충원 후 교전 타이밍을 찾는 타워 전투형 선수.",
+		"faction_id": "tower",
+		"faction_name": "타워",
+		"hero": {
+			"name": "마법사",
+			"sprite": "06_wizard"
+		},
+		"hero_index": 1,
+		"id": "club_11_player_1",
+		"is_reserve": false,
+		"name": "서아",
+		"operation": 65,
+		"portrait": {
+			"alias_of": "club_7_player_1",
+			"asset_id": "club_7_player_1",
+			"path": "assets/players/club_7_player_1.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 74,
+			"judgment": 72,
+			"macro": 65,
+			"micro": 79,
+			"multitask": 73,
+			"scouting": 68,
+			"teamwork": 70
+		},
+		"source_profile_index": 7,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "교전 선호 · 적극적"
+	},
+	{
+		"battle": 57,
+		"club_id": "club_11",
+		"description": "수입을 먼저 확보하는 타워 운영형 선수.",
+		"faction_id": "tower",
+		"faction_name": "타워",
+		"hero": {
+			"name": "지니",
+			"sprite": "05_genie"
+		},
+		"hero_index": 0,
+		"id": "club_11_player_2",
+		"is_reserve": false,
+		"name": "주원",
+		"operation": 84,
+		"portrait": {
+			"alias_of": "club_7_player_2",
+			"asset_id": "club_7_player_2",
+			"path": "assets/players/club_7_player_2.png"
+		},
+		"preference": -0.9,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 14,
+			"judgment": 71,
+			"macro": 84,
+			"micro": 57,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 75
+		},
+		"source_profile_index": 6,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "성장 선호 · 장기전"
+	},
+	{
+		"battle": 79,
+		"club_id": "club_11",
+		"description": "충원 후 교전 타이밍을 찾는 타워 전투형 선수.",
+		"faction_id": "tower",
+		"faction_name": "타워",
+		"hero": {
+			"name": "마법사",
+			"sprite": "06_wizard"
+		},
+		"hero_index": 1,
+		"id": "club_11_player_3",
+		"is_reserve": false,
+		"name": "해린",
+		"operation": 65,
+		"portrait": {
+			"alias_of": "club_7_player_3",
+			"asset_id": "club_7_player_3",
+			"path": "assets/players/club_7_player_3.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 3,
+		"skills": {
+			"aggression": 74,
+			"judgment": 72,
+			"macro": 65,
+			"micro": 79,
+			"multitask": 73,
+			"scouting": 68,
+			"teamwork": 70
+		},
+		"source_profile_index": 7,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "교전 선호 · 적극적"
+	},
+	{
+		"battle": 83,
+		"club_id": "club_11",
+		"description": "초반 교전과 압박을 선호하는 네크로폴리스 선수.",
+		"faction_id": "necropolis",
+		"faction_name": "네크로폴리스",
+		"hero": {
+			"name": "죽음의 기사",
+			"sprite": "07_death_knight"
+		},
+		"hero_index": 0,
+		"id": "club_11_sub_4",
+		"is_reserve": true,
+		"name": "원준",
+		"operation": 59,
+		"portrait": {
+			"alias_of": "club_7_player_0",
+			"asset_id": "club_7_player_0",
+			"path": "assets/players/club_7_player_0.png"
+		},
+		"preference": 0.9,
+		"roster_slot": 4,
+		"skills": {
+			"aggression": 86,
+			"judgment": 71,
+			"macro": 59,
+			"micro": 83,
+			"multitask": 72,
+			"scouting": 68,
+			"teamwork": 61
+		},
+		"source_profile_index": 5,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "교전 선호 · 과감함"
+	},
+	{
+		"battle": 62,
+		"club_id": "club_12",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "dungeon",
+		"faction_name": "던전",
+		"hero": {
+			"name": "군주",
+			"sprite": "15_overlord"
+		},
+		"hero_index": 0,
+		"id": "club_12_player_0",
+		"is_reserve": false,
+		"name": "정우",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "club_4_player_0",
+			"asset_id": "club_4_player_0",
+			"path": "assets/players/club_4_player_0.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 8,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 78,
+		"club_id": "club_12",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "dungeon",
+		"faction_name": "던전",
+		"hero": {
+			"name": "워록",
+			"sprite": "16_warlock"
+		},
+		"hero_index": 1,
+		"id": "club_12_player_1",
+		"is_reserve": false,
+		"name": "지민",
+		"operation": 62,
+		"portrait": {
+			"alias_of": "club_4_player_1",
+			"asset_id": "club_4_player_1",
+			"path": "assets/players/club_4_player_1.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 74,
+			"judgment": 70,
+			"macro": 62,
+			"micro": 78,
+			"multitask": 71,
+			"scouting": 66,
+			"teamwork": 68
+		},
+		"source_profile_index": 9,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "전투 선호"
+	},
+	{
+		"battle": 62,
+		"club_id": "club_12",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "dungeon",
+		"faction_name": "던전",
+		"hero": {
+			"name": "군주",
+			"sprite": "15_overlord"
+		},
+		"hero_index": 0,
+		"id": "club_12_player_2",
+		"is_reserve": false,
+		"name": "승현",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "club_4_player_2",
+			"asset_id": "club_4_player_2",
+			"path": "assets/players/club_4_player_2.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 8,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 78,
+		"club_id": "club_12",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "dungeon",
+		"faction_name": "던전",
+		"hero": {
+			"name": "워록",
+			"sprite": "16_warlock"
+		},
+		"hero_index": 1,
+		"id": "club_12_player_3",
+		"is_reserve": false,
+		"name": "다희",
+		"operation": 62,
+		"portrait": {
+			"alias_of": "club_4_player_3",
+			"asset_id": "club_4_player_3",
+			"path": "assets/players/club_4_player_3.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 3,
+		"skills": {
+			"aggression": 74,
+			"judgment": 70,
+			"macro": 62,
+			"micro": 78,
+			"multitask": 71,
+			"scouting": 66,
+			"teamwork": 68
+		},
+		"source_profile_index": 9,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "전투 선호"
+	},
+	{
+		"battle": 62,
+		"club_id": "club_12",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "dungeon",
+		"faction_name": "던전",
+		"hero": {
+			"name": "군주",
+			"sprite": "15_overlord"
+		},
+		"hero_index": 0,
+		"id": "club_12_sub_4",
+		"is_reserve": true,
+		"name": "채윤",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "club_4_player_0",
+			"asset_id": "club_4_player_0",
+			"path": "assets/players/club_4_player_0.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 4,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 8,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 62,
+		"club_id": "club_13",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "stronghold",
+		"faction_name": "스트롱홀드",
+		"hero": {
+			"name": "야만전사",
+			"sprite": "09_barbarian"
+		},
+		"hero_index": 0,
+		"id": "club_13_player_0",
+		"is_reserve": false,
+		"name": "재민",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "club_5_player_0",
+			"asset_id": "club_5_player_0",
+			"path": "assets/players/club_5_player_0.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 10,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 78,
+		"club_id": "club_13",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "stronghold",
+		"faction_name": "스트롱홀드",
+		"hero": {
+			"name": "전투술사",
+			"sprite": "10_battle_mage"
+		},
+		"hero_index": 1,
+		"id": "club_13_player_1",
+		"is_reserve": false,
+		"name": "하윤",
+		"operation": 62,
+		"portrait": {
+			"alias_of": "club_5_player_1",
+			"asset_id": "club_5_player_1",
+			"path": "assets/players/club_5_player_1.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 74,
+			"judgment": 70,
+			"macro": 62,
+			"micro": 78,
+			"multitask": 71,
+			"scouting": 66,
+			"teamwork": 68
+		},
+		"source_profile_index": 11,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "전투 선호"
+	},
+	{
+		"battle": 62,
+		"club_id": "club_13",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "stronghold",
+		"faction_name": "스트롱홀드",
+		"hero": {
+			"name": "야만전사",
+			"sprite": "09_barbarian"
+		},
+		"hero_index": 0,
+		"id": "club_13_player_2",
+		"is_reserve": false,
+		"name": "동현",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "club_5_player_2",
+			"asset_id": "club_5_player_2",
+			"path": "assets/players/club_5_player_2.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 10,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 78,
+		"club_id": "club_13",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "stronghold",
+		"faction_name": "스트롱홀드",
+		"hero": {
+			"name": "전투술사",
+			"sprite": "10_battle_mage"
+		},
+		"hero_index": 1,
+		"id": "club_13_player_3",
+		"is_reserve": false,
+		"name": "세린",
+		"operation": 62,
+		"portrait": {
+			"alias_of": "club_5_player_3",
+			"asset_id": "club_5_player_3",
+			"path": "assets/players/club_5_player_3.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 3,
+		"skills": {
+			"aggression": 74,
+			"judgment": 70,
+			"macro": 62,
+			"micro": 78,
+			"multitask": 71,
+			"scouting": 66,
+			"teamwork": 68
+		},
+		"source_profile_index": 11,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "전투 선호"
+	},
+	{
+		"battle": 78,
+		"club_id": "club_13",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "stronghold",
+		"faction_name": "스트롱홀드",
+		"hero": {
+			"name": "야만전사",
+			"sprite": "09_barbarian"
+		},
+		"hero_index": 0,
+		"id": "club_13_sub_4",
+		"is_reserve": true,
+		"name": "예나",
+		"operation": 62,
+		"portrait": {
+			"alias_of": "club_5_player_0",
+			"asset_id": "club_5_player_0",
+			"path": "assets/players/club_5_player_0.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 4,
+		"skills": {
+			"aggression": 74,
+			"judgment": 70,
+			"macro": 62,
+			"micro": 78,
+			"multitask": 71,
+			"scouting": 66,
+			"teamwork": 68
+		},
+		"source_profile_index": 11,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "전투 선호"
+	},
+	{
+		"battle": 62,
+		"club_id": "club_14",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "fortress",
+		"faction_name": "포트리스",
+		"hero": {
+			"name": "비스트마스터",
+			"sprite": "11_beastmaster"
+		},
+		"hero_index": 0,
+		"id": "club_14_player_0",
+		"is_reserve": false,
+		"name": "민준",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "club_6_player_0",
+			"asset_id": "club_6_player_0",
+			"path": "assets/players/club_6_player_0.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 12,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 78,
+		"club_id": "club_14",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "fortress",
+		"faction_name": "포트리스",
+		"hero": {
+			"name": "위치",
+			"sprite": "12_witch"
+		},
+		"hero_index": 1,
+		"id": "club_14_player_1",
+		"is_reserve": false,
+		"name": "은서",
+		"operation": 62,
+		"portrait": {
+			"alias_of": "club_6_player_1",
+			"asset_id": "club_6_player_1",
+			"path": "assets/players/club_6_player_1.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 74,
+			"judgment": 70,
+			"macro": 62,
+			"micro": 78,
+			"multitask": 71,
+			"scouting": 66,
+			"teamwork": 68
+		},
+		"source_profile_index": 13,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "전투 선호"
+	},
+	{
+		"battle": 62,
+		"club_id": "club_14",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "fortress",
+		"faction_name": "포트리스",
+		"hero": {
+			"name": "비스트마스터",
+			"sprite": "11_beastmaster"
+		},
+		"hero_index": 0,
+		"id": "club_14_player_2",
+		"is_reserve": false,
+		"name": "지훈",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "club_6_player_2",
+			"asset_id": "club_6_player_2",
+			"path": "assets/players/club_6_player_2.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 12,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 78,
+		"club_id": "club_14",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "fortress",
+		"faction_name": "포트리스",
+		"hero": {
+			"name": "위치",
+			"sprite": "12_witch"
+		},
+		"hero_index": 1,
+		"id": "club_14_player_3",
+		"is_reserve": false,
+		"name": "채원",
+		"operation": 62,
+		"portrait": {
+			"alias_of": "club_6_player_3",
+			"asset_id": "club_6_player_3",
+			"path": "assets/players/club_6_player_3.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 3,
+		"skills": {
+			"aggression": 74,
+			"judgment": 70,
+			"macro": 62,
+			"micro": 78,
+			"multitask": 71,
+			"scouting": 66,
+			"teamwork": 68
+		},
+		"source_profile_index": 13,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "전투 선호"
+	},
+	{
+		"battle": 62,
+		"club_id": "club_14",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "conflux",
+		"faction_name": "컨플럭스",
+		"hero": {
+			"name": "플레인워커",
+			"sprite": "13_planeswalker"
+		},
+		"hero_index": 0,
+		"id": "club_14_sub_4",
+		"is_reserve": true,
+		"name": "도현",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "club_6_player_0",
+			"asset_id": "club_6_player_0",
+			"path": "assets/players/club_6_player_0.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 4,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 14,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 62,
+		"club_id": "club_15",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "conflux",
+		"faction_name": "컨플럭스",
+		"hero": {
+			"name": "플레인워커",
+			"sprite": "13_planeswalker"
+		},
+		"hero_index": 0,
+		"id": "club_15_player_0",
+		"is_reserve": false,
+		"name": "성민",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "club_7_player_0",
+			"asset_id": "club_7_player_0",
+			"path": "assets/players/club_7_player_0.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 14,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 78,
+		"club_id": "club_15",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "conflux",
+		"faction_name": "컨플럭스",
+		"hero": {
+			"name": "엘리멘탈리스트",
+			"sprite": "14_elementalist"
+		},
+		"hero_index": 1,
+		"id": "club_15_player_1",
+		"is_reserve": false,
+		"name": "유진",
+		"operation": 62,
+		"portrait": {
+			"alias_of": "club_7_player_1",
+			"asset_id": "club_7_player_1",
+			"path": "assets/players/club_7_player_1.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 74,
+			"judgment": 70,
+			"macro": 62,
+			"micro": 78,
+			"multitask": 71,
+			"scouting": 66,
+			"teamwork": 68
+		},
+		"source_profile_index": 15,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "전투 선호"
+	},
+	{
+		"battle": 62,
+		"club_id": "club_15",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "conflux",
+		"faction_name": "컨플럭스",
+		"hero": {
+			"name": "플레인워커",
+			"sprite": "13_planeswalker"
+		},
+		"hero_index": 0,
+		"id": "club_15_player_2",
+		"is_reserve": false,
+		"name": "현석",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "club_7_player_2",
+			"asset_id": "club_7_player_2",
+			"path": "assets/players/club_7_player_2.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 14,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 78,
+		"club_id": "club_15",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "conflux",
+		"faction_name": "컨플럭스",
+		"hero": {
+			"name": "엘리멘탈리스트",
+			"sprite": "14_elementalist"
+		},
+		"hero_index": 1,
+		"id": "club_15_player_3",
+		"is_reserve": false,
+		"name": "수빈",
+		"operation": 62,
+		"portrait": {
+			"alias_of": "club_7_player_3",
+			"asset_id": "club_7_player_3",
+			"path": "assets/players/club_7_player_3.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 3,
+		"skills": {
+			"aggression": 74,
+			"judgment": 70,
+			"macro": 62,
+			"micro": 78,
+			"multitask": 71,
+			"scouting": 66,
+			"teamwork": 68
+		},
+		"source_profile_index": 15,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "전투 선호"
+	},
+	{
+		"battle": 82,
+		"club_id": "club_15",
+		"description": "충원 뒤 빠른 교전 기회를 노립니다.\n같은 조언에서도 진출 타이밍이 빠릅니다.",
+		"faction_id": "castle",
+		"faction_name": "캐슬",
+		"hero": {
+			"name": "기사",
+			"sprite": "01_knight"
+		},
+		"hero_index": 0,
+		"id": "club_15_sub_4",
+		"is_reserve": true,
+		"name": "하영",
+		"operation": 56,
+		"portrait": {
+			"alias_of": "club_7_player_0",
+			"asset_id": "club_7_player_0",
+			"path": "assets/players/club_7_player_0.png"
+		},
+		"preference": 0.8,
+		"roster_slot": 4,
+		"skills": {
+			"aggression": 82,
+			"judgment": 68,
+			"macro": 56,
+			"micro": 82,
+			"multitask": 70,
+			"scouting": 65,
+			"teamwork": 61
+		},
+		"source_profile_index": 1,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "교전 선호 · 과감함"
+	},
+	{
+		"battle": 79,
+		"club_id": "club_1",
+		"description": "충원 후 교전 타이밍을 찾는 타워 전투형 선수.",
+		"faction_id": "tower",
+		"faction_name": "타워",
+		"hero": {
+			"name": "지니",
+			"sprite": "05_genie"
+		},
+		"hero_index": 0,
+		"id": "club_1_sub_4",
+		"is_reserve": true,
+		"name": "시우",
+		"operation": 65,
+		"portrait": {
+			"alias_of": "player_04",
+			"asset_id": "player_04",
+			"path": "assets/players/player_04.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 4,
+		"skills": {
+			"aggression": 74,
+			"judgment": 72,
+			"macro": 65,
+			"micro": 79,
+			"multitask": 73,
+			"scouting": 68,
+			"teamwork": 70
+		},
+		"source_profile_index": 7,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "교전 선호 · 적극적"
+	},
+	{
+		"battle": 62,
+		"club_id": "club_2",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "stronghold",
+		"faction_name": "스트롱홀드",
+		"hero": {
+			"name": "야만전사",
+			"sprite": "09_barbarian"
+		},
+		"hero_index": 0,
+		"id": "club_2_sub_4",
+		"is_reserve": true,
+		"name": "하람",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "player_08",
+			"asset_id": "player_08",
+			"path": "assets/players/player_08.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 4,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 10,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 78,
+		"club_id": "club_3",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "fortress",
+		"faction_name": "포트리스",
+		"hero": {
+			"name": "비스트마스터",
+			"sprite": "11_beastmaster"
+		},
+		"hero_index": 0,
+		"id": "club_3_sub_4",
+		"is_reserve": true,
+		"name": "정민",
+		"operation": 62,
+		"portrait": {
+			"alias_of": "player_12",
+			"asset_id": "player_12",
+			"path": "assets/players/player_12.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 4,
+		"skills": {
+			"aggression": 74,
+			"judgment": 70,
+			"macro": 62,
+			"micro": 78,
+			"multitask": 71,
+			"scouting": 66,
+			"teamwork": 68
+		},
+		"source_profile_index": 13,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "전투 선호"
+	},
+	{
+		"battle": 62,
+		"club_id": "club_4",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "dungeon",
+		"faction_name": "던전",
+		"hero": {
+			"name": "군주",
+			"sprite": "15_overlord"
+		},
+		"hero_index": 0,
+		"id": "club_4_player_0",
+		"is_reserve": false,
+		"name": "태오",
+		"operation": 78,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "club_4_player_0",
+			"path": "assets/players/club_4_player_0.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 8,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 78,
+		"club_id": "club_4",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "dungeon",
+		"faction_name": "던전",
+		"hero": {
+			"name": "워록",
+			"sprite": "16_warlock"
+		},
+		"hero_index": 1,
+		"id": "club_4_player_1",
+		"is_reserve": false,
+		"name": "수아",
+		"operation": 62,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "club_4_player_1",
+			"path": "assets/players/club_4_player_1.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 74,
+			"judgment": 70,
+			"macro": 62,
+			"micro": 78,
+			"multitask": 71,
+			"scouting": 66,
+			"teamwork": 68
+		},
+		"source_profile_index": 9,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "전투 선호"
+	},
+	{
+		"battle": 62,
+		"club_id": "club_4",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "dungeon",
+		"faction_name": "던전",
+		"hero": {
+			"name": "군주",
+			"sprite": "15_overlord"
+		},
+		"hero_index": 0,
+		"id": "club_4_player_2",
+		"is_reserve": false,
+		"name": "건",
+		"operation": 78,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "club_4_player_2",
+			"path": "assets/players/club_4_player_2.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 8,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 78,
+		"club_id": "club_4",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "dungeon",
+		"faction_name": "던전",
+		"hero": {
+			"name": "워록",
+			"sprite": "16_warlock"
+		},
+		"hero_index": 1,
+		"id": "club_4_player_3",
+		"is_reserve": false,
+		"name": "나린",
+		"operation": 62,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "club_4_player_3",
+			"path": "assets/players/club_4_player_3.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 3,
+		"skills": {
+			"aggression": 74,
+			"judgment": 70,
+			"macro": 62,
+			"micro": 78,
+			"multitask": 71,
+			"scouting": 66,
+			"teamwork": 68
+		},
+		"source_profile_index": 9,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "전투 선호"
+	},
+	{
+		"battle": 58,
+		"club_id": "club_4",
+		"description": "안전한 수입을 만든 뒤 출전합니다.\n성장 조언을 꾸준히 수행하는 운영형 선수.",
+		"faction_id": "castle",
+		"faction_name": "캐슬",
+		"hero": {
+			"name": "기사",
+			"sprite": "01_knight"
+		},
+		"hero_index": 0,
+		"id": "club_4_sub_4",
+		"is_reserve": true,
+		"name": "지율",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "club_4_player_0",
+			"asset_id": "club_4_player_0",
+			"path": "assets/players/club_4_player_0.png"
+		},
+		"preference": -0.8,
+		"roster_slot": 4,
+		"skills": {
+			"aggression": 18,
+			"judgment": 68,
+			"macro": 78,
+			"micro": 58,
+			"multitask": 67,
+			"scouting": 57,
+			"teamwork": 74
+		},
+		"source_profile_index": 0,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "성장 선호 · 신중함"
+	},
+	{
+		"battle": 62,
+		"club_id": "club_5",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "stronghold",
+		"faction_name": "스트롱홀드",
+		"hero": {
+			"name": "야만전사",
+			"sprite": "09_barbarian"
+		},
+		"hero_index": 0,
+		"id": "club_5_player_0",
+		"is_reserve": false,
+		"name": "도윤",
+		"operation": 78,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "club_5_player_0",
+			"path": "assets/players/club_5_player_0.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 10,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 78,
+		"club_id": "club_5",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "stronghold",
+		"faction_name": "스트롱홀드",
+		"hero": {
+			"name": "전투술사",
+			"sprite": "10_battle_mage"
+		},
+		"hero_index": 1,
+		"id": "club_5_player_1",
+		"is_reserve": false,
+		"name": "유리",
+		"operation": 62,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "club_5_player_1",
+			"path": "assets/players/club_5_player_1.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 74,
+			"judgment": 70,
+			"macro": 62,
+			"micro": 78,
+			"multitask": 71,
+			"scouting": 66,
+			"teamwork": 68
+		},
+		"source_profile_index": 11,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "전투 선호"
+	},
+	{
+		"battle": 62,
+		"club_id": "club_5",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "stronghold",
+		"faction_name": "스트롱홀드",
+		"hero": {
+			"name": "야만전사",
+			"sprite": "09_barbarian"
+		},
+		"hero_index": 0,
+		"id": "club_5_player_2",
+		"is_reserve": false,
+		"name": "시온",
+		"operation": 78,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "club_5_player_2",
+			"path": "assets/players/club_5_player_2.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 10,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 78,
+		"club_id": "club_5",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "stronghold",
+		"faction_name": "스트롱홀드",
+		"hero": {
+			"name": "전투술사",
+			"sprite": "10_battle_mage"
+		},
+		"hero_index": 1,
+		"id": "club_5_player_3",
+		"is_reserve": false,
+		"name": "하린",
+		"operation": 62,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "club_5_player_3",
+			"path": "assets/players/club_5_player_3.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 3,
+		"skills": {
+			"aggression": 74,
+			"judgment": 70,
+			"macro": 62,
+			"micro": 78,
+			"multitask": 71,
+			"scouting": 66,
+			"teamwork": 68
+		},
+		"source_profile_index": 11,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "전투 선호"
+	},
+	{
+		"battle": 80,
+		"club_id": "club_5",
+		"description": "빠른 진출로 교전 기회를 만드는 램파트 선수.",
+		"faction_id": "rampart",
+		"faction_name": "램파트",
+		"hero": {
+			"name": "드루이드",
+			"sprite": "03_druid"
+		},
+		"hero_index": 0,
+		"id": "club_5_sub_4",
+		"is_reserve": true,
+		"name": "윤재",
+		"operation": 61,
+		"portrait": {
+			"alias_of": "club_5_player_0",
+			"asset_id": "club_5_player_0",
+			"path": "assets/players/club_5_player_0.png"
+		},
+		"preference": 0.7,
+		"roster_slot": 4,
+		"skills": {
+			"aggression": 78,
+			"judgment": 70,
+			"macro": 61,
+			"micro": 80,
+			"multitask": 71,
+			"scouting": 67,
+			"teamwork": 66
+		},
+		"source_profile_index": 3,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "교전 선호 · 빠른 압박"
+	},
+	{
+		"battle": 62,
+		"club_id": "club_6",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "fortress",
+		"faction_name": "포트리스",
+		"hero": {
+			"name": "비스트마스터",
+			"sprite": "11_beastmaster"
+		},
+		"hero_index": 0,
+		"id": "club_6_player_0",
+		"is_reserve": false,
+		"name": "태린",
+		"operation": 78,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "club_6_player_0",
+			"path": "assets/players/club_6_player_0.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 12,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 78,
+		"club_id": "club_6",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "fortress",
+		"faction_name": "포트리스",
+		"hero": {
+			"name": "위치",
+			"sprite": "12_witch"
+		},
+		"hero_index": 1,
+		"id": "club_6_player_1",
+		"is_reserve": false,
+		"name": "소율",
+		"operation": 62,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "club_6_player_1",
+			"path": "assets/players/club_6_player_1.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 74,
+			"judgment": 70,
+			"macro": 62,
+			"micro": 78,
+			"multitask": 71,
+			"scouting": 66,
+			"teamwork": 68
+		},
+		"source_profile_index": 13,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "전투 선호"
+	},
+	{
+		"battle": 62,
+		"club_id": "club_6",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "fortress",
+		"faction_name": "포트리스",
+		"hero": {
+			"name": "비스트마스터",
+			"sprite": "11_beastmaster"
+		},
+		"hero_index": 0,
+		"id": "club_6_player_2",
+		"is_reserve": false,
+		"name": "지오",
+		"operation": 78,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "club_6_player_2",
+			"path": "assets/players/club_6_player_2.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 12,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 78,
+		"club_id": "club_6",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "fortress",
+		"faction_name": "포트리스",
+		"hero": {
+			"name": "위치",
+			"sprite": "12_witch"
+		},
+		"hero_index": 1,
+		"id": "club_6_player_3",
+		"is_reserve": false,
+		"name": "이솔",
+		"operation": 62,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "club_6_player_3",
+			"path": "assets/players/club_6_player_3.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 3,
+		"skills": {
+			"aggression": 74,
+			"judgment": 70,
+			"macro": 62,
+			"micro": 78,
+			"multitask": 71,
+			"scouting": 66,
+			"teamwork": 68
+		},
+		"source_profile_index": 13,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "전투 선호"
+	},
+	{
+		"battle": 57,
+		"club_id": "club_6",
+		"description": "수입을 먼저 확보하는 타워 운영형 선수.",
+		"faction_id": "tower",
+		"faction_name": "타워",
+		"hero": {
+			"name": "지니",
+			"sprite": "05_genie"
+		},
+		"hero_index": 0,
+		"id": "club_6_sub_4",
+		"is_reserve": true,
+		"name": "서진",
+		"operation": 84,
+		"portrait": {
+			"alias_of": "club_6_player_0",
+			"asset_id": "club_6_player_0",
+			"path": "assets/players/club_6_player_0.png"
+		},
+		"preference": -0.9,
+		"roster_slot": 4,
+		"skills": {
+			"aggression": 14,
+			"judgment": 71,
+			"macro": 84,
+			"micro": 57,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 75
+		},
+		"source_profile_index": 6,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "성장 선호 · 장기전"
+	},
+	{
+		"battle": 62,
+		"club_id": "club_7",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "conflux",
+		"faction_name": "컨플럭스",
+		"hero": {
+			"name": "플레인워커",
+			"sprite": "13_planeswalker"
+		},
+		"hero_index": 0,
+		"id": "club_7_player_0",
+		"is_reserve": false,
+		"name": "준",
+		"operation": 78,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "club_7_player_0",
+			"path": "assets/players/club_7_player_0.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 14,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 78,
+		"club_id": "club_7",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "conflux",
+		"faction_name": "컨플럭스",
+		"hero": {
+			"name": "엘리멘탈리스트",
+			"sprite": "14_elementalist"
+		},
+		"hero_index": 1,
+		"id": "club_7_player_1",
+		"is_reserve": false,
+		"name": "가온",
+		"operation": 62,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "club_7_player_1",
+			"path": "assets/players/club_7_player_1.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 74,
+			"judgment": 70,
+			"macro": 62,
+			"micro": 78,
+			"multitask": 71,
+			"scouting": 66,
+			"teamwork": 68
+		},
+		"source_profile_index": 15,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "전투 선호"
+	},
+	{
+		"battle": 62,
+		"club_id": "club_7",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "conflux",
+		"faction_name": "컨플럭스",
+		"hero": {
+			"name": "플레인워커",
+			"sprite": "13_planeswalker"
+		},
+		"hero_index": 0,
+		"id": "club_7_player_2",
+		"is_reserve": false,
+		"name": "재하",
+		"operation": 78,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "club_7_player_2",
+			"path": "assets/players/club_7_player_2.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 14,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 78,
+		"club_id": "club_7",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "conflux",
+		"faction_name": "컨플럭스",
+		"hero": {
+			"name": "엘리멘탈리스트",
+			"sprite": "14_elementalist"
+		},
+		"hero_index": 1,
+		"id": "club_7_player_3",
+		"is_reserve": false,
+		"name": "다온",
+		"operation": 62,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "club_7_player_3",
+			"path": "assets/players/club_7_player_3.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 3,
+		"skills": {
+			"aggression": 74,
+			"judgment": 70,
+			"macro": 62,
+			"micro": 78,
+			"multitask": 71,
+			"scouting": 66,
+			"teamwork": 68
+		},
+		"source_profile_index": 15,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "전투 선호"
+	},
+	{
+		"battle": 78,
+		"club_id": "club_7",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "dungeon",
+		"faction_name": "던전",
+		"hero": {
+			"name": "군주",
+			"sprite": "15_overlord"
+		},
+		"hero_index": 0,
+		"id": "club_7_sub_4",
+		"is_reserve": true,
+		"name": "나경",
+		"operation": 62,
+		"portrait": {
+			"alias_of": "club_7_player_0",
+			"asset_id": "club_7_player_0",
+			"path": "assets/players/club_7_player_0.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 4,
+		"skills": {
+			"aggression": 74,
+			"judgment": 70,
+			"macro": 62,
+			"micro": 78,
+			"multitask": 71,
+			"scouting": 66,
+			"teamwork": 68
+		},
+		"source_profile_index": 9,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "전투 선호"
+	},
+	{
+		"battle": 58,
+		"club_id": "club_8",
+		"description": "안전한 수입을 만든 뒤 출전합니다.\n성장 조언을 꾸준히 수행하는 운영형 선수.",
+		"faction_id": "castle",
+		"faction_name": "캐슬",
+		"hero": {
+			"name": "기사",
+			"sprite": "01_knight"
+		},
+		"hero_index": 0,
+		"id": "club_8_player_0",
+		"is_reserve": false,
+		"name": "현우",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "club_4_player_0",
+			"asset_id": "club_4_player_0",
+			"path": "assets/players/club_4_player_0.png"
+		},
+		"preference": -0.8,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 18,
+			"judgment": 68,
+			"macro": 78,
+			"micro": 58,
+			"multitask": 67,
+			"scouting": 57,
+			"teamwork": 74
+		},
+		"source_profile_index": 0,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "성장 선호 · 신중함"
+	},
+	{
+		"battle": 82,
+		"club_id": "club_8",
+		"description": "충원 뒤 빠른 교전 기회를 노립니다.\n같은 조언에서도 진출 타이밍이 빠릅니다.",
+		"faction_id": "castle",
+		"faction_name": "캐슬",
+		"hero": {
+			"name": "성직자",
+			"sprite": "02_cleric"
+		},
+		"hero_index": 1,
+		"id": "club_8_player_1",
+		"is_reserve": false,
+		"name": "채린",
+		"operation": 56,
+		"portrait": {
+			"alias_of": "club_4_player_1",
+			"asset_id": "club_4_player_1",
+			"path": "assets/players/club_4_player_1.png"
+		},
+		"preference": 0.8,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 82,
+			"judgment": 68,
+			"macro": 56,
+			"micro": 82,
+			"multitask": 70,
+			"scouting": 65,
+			"teamwork": 61
+		},
+		"source_profile_index": 1,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "교전 선호 · 과감함"
+	},
+	{
+		"battle": 58,
+		"club_id": "club_8",
+		"description": "안전한 수입을 만든 뒤 출전합니다.\n성장 조언을 꾸준히 수행하는 운영형 선수.",
+		"faction_id": "castle",
+		"faction_name": "캐슬",
+		"hero": {
+			"name": "기사",
+			"sprite": "01_knight"
+		},
+		"hero_index": 0,
+		"id": "club_8_player_2",
+		"is_reserve": false,
+		"name": "민재",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "club_4_player_2",
+			"asset_id": "club_4_player_2",
+			"path": "assets/players/club_4_player_2.png"
+		},
+		"preference": -0.8,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 18,
+			"judgment": 68,
+			"macro": 78,
+			"micro": 58,
+			"multitask": 67,
+			"scouting": 57,
+			"teamwork": 74
+		},
+		"source_profile_index": 0,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "성장 선호 · 신중함"
+	},
+	{
+		"battle": 82,
+		"club_id": "club_8",
+		"description": "충원 뒤 빠른 교전 기회를 노립니다.\n같은 조언에서도 진출 타이밍이 빠릅니다.",
+		"faction_id": "castle",
+		"faction_name": "캐슬",
+		"hero": {
+			"name": "성직자",
+			"sprite": "02_cleric"
+		},
+		"hero_index": 1,
+		"id": "club_8_player_3",
+		"is_reserve": false,
+		"name": "아라",
+		"operation": 56,
+		"portrait": {
+			"alias_of": "club_4_player_3",
+			"asset_id": "club_4_player_3",
+			"path": "assets/players/club_4_player_3.png"
+		},
+		"preference": 0.8,
+		"roster_slot": 3,
+		"skills": {
+			"aggression": 82,
+			"judgment": 68,
+			"macro": 56,
+			"micro": 82,
+			"multitask": 70,
+			"scouting": 65,
+			"teamwork": 61
+		},
+		"source_profile_index": 1,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "교전 선호 · 과감함"
+	},
+	{
+		"battle": 62,
+		"club_id": "club_8",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "fortress",
+		"faction_name": "포트리스",
+		"hero": {
+			"name": "비스트마스터",
+			"sprite": "11_beastmaster"
+		},
+		"hero_index": 0,
+		"id": "club_8_sub_4",
+		"is_reserve": true,
+		"name": "수현",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "club_4_player_0",
+			"asset_id": "club_4_player_0",
+			"path": "assets/players/club_4_player_0.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 4,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 12,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 60,
+		"club_id": "club_9",
+		"description": "광산 확보와 병력 보존을 선호하는 램파트 선수.",
+		"faction_id": "rampart",
+		"faction_name": "램파트",
+		"hero": {
+			"name": "드루이드",
+			"sprite": "03_druid"
+		},
+		"hero_index": 0,
+		"id": "club_9_player_0",
+		"is_reserve": false,
+		"name": "우진",
+		"operation": 82,
+		"portrait": {
+			"alias_of": "club_5_player_0",
+			"asset_id": "club_5_player_0",
+			"path": "assets/players/club_5_player_0.png"
+		},
+		"preference": -0.7,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 22,
+			"judgment": 71,
+			"macro": 82,
+			"micro": 60,
+			"multitask": 70,
+			"scouting": 61,
+			"teamwork": 78
+		},
+		"source_profile_index": 2,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "성장 선호 · 자원 확보"
+	},
+	{
+		"battle": 80,
+		"club_id": "club_9",
+		"description": "빠른 진출로 교전 기회를 만드는 램파트 선수.",
+		"faction_id": "rampart",
+		"faction_name": "램파트",
+		"hero": {
+			"name": "레인저",
+			"sprite": "04_ranger"
+		},
+		"hero_index": 1,
+		"id": "club_9_player_1",
+		"is_reserve": false,
+		"name": "예린",
+		"operation": 61,
+		"portrait": {
+			"alias_of": "club_5_player_1",
+			"asset_id": "club_5_player_1",
+			"path": "assets/players/club_5_player_1.png"
+		},
+		"preference": 0.7,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 78,
+			"judgment": 70,
+			"macro": 61,
+			"micro": 80,
+			"multitask": 71,
+			"scouting": 67,
+			"teamwork": 66
+		},
+		"source_profile_index": 3,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "교전 선호 · 빠른 압박"
+	},
+	{
+		"battle": 60,
+		"club_id": "club_9",
+		"description": "광산 확보와 병력 보존을 선호하는 램파트 선수.",
+		"faction_id": "rampart",
+		"faction_name": "램파트",
+		"hero": {
+			"name": "드루이드",
+			"sprite": "03_druid"
+		},
+		"hero_index": 0,
+		"id": "club_9_player_2",
+		"is_reserve": false,
+		"name": "성호",
+		"operation": 82,
+		"portrait": {
+			"alias_of": "club_5_player_2",
+			"asset_id": "club_5_player_2",
+			"path": "assets/players/club_5_player_2.png"
+		},
+		"preference": -0.7,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 22,
+			"judgment": 71,
+			"macro": 82,
+			"micro": 60,
+			"multitask": 70,
+			"scouting": 61,
+			"teamwork": 78
+		},
+		"source_profile_index": 2,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "성장 선호 · 자원 확보"
+	},
+	{
+		"battle": 80,
+		"club_id": "club_9",
+		"description": "빠른 진출로 교전 기회를 만드는 램파트 선수.",
+		"faction_id": "rampart",
+		"faction_name": "램파트",
+		"hero": {
+			"name": "레인저",
+			"sprite": "04_ranger"
+		},
+		"hero_index": 1,
+		"id": "club_9_player_3",
+		"is_reserve": false,
+		"name": "나은",
+		"operation": 61,
+		"portrait": {
+			"alias_of": "club_5_player_3",
+			"asset_id": "club_5_player_3",
+			"path": "assets/players/club_5_player_3.png"
+		},
+		"preference": 0.7,
+		"roster_slot": 3,
+		"skills": {
+			"aggression": 78,
+			"judgment": 70,
+			"macro": 61,
+			"micro": 80,
+			"multitask": 71,
+			"scouting": 67,
+			"teamwork": 66
+		},
+		"source_profile_index": 3,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "교전 선호 · 빠른 압박"
+	},
+	{
+		"battle": 78,
+		"club_id": "club_9",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "conflux",
+		"faction_name": "컨플럭스",
+		"hero": {
+			"name": "플레인워커",
+			"sprite": "13_planeswalker"
+		},
+		"hero_index": 0,
+		"id": "club_9_sub_4",
+		"is_reserve": true,
+		"name": "해원",
+		"operation": 62,
+		"portrait": {
+			"alias_of": "club_5_player_0",
+			"asset_id": "club_5_player_0",
+			"path": "assets/players/club_5_player_0.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 4,
+		"skills": {
+			"aggression": 74,
+			"judgment": 70,
+			"macro": 62,
+			"micro": 78,
+			"multitask": 71,
+			"scouting": 66,
+			"teamwork": 68
+		},
+		"source_profile_index": 15,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "전투 선호"
+	},
+	{
+		"battle": 58,
+		"club_id": "free_agents",
+		"description": "안전한 수입을 만든 뒤 출전합니다.\n성장 조언을 꾸준히 수행하는 운영형 선수.",
+		"faction_id": "castle",
+		"faction_name": "캐슬",
+		"hero": {
+			"name": "기사",
+			"sprite": "01_knight"
+		},
+		"hero_index": 0,
+		"id": "free_0",
+		"is_reserve": false,
+		"name": "서진",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "player_00",
+			"asset_id": "player_00",
+			"path": "assets/players/player_00.png"
+		},
+		"preference": -0.8,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 18,
+			"judgment": 68,
+			"macro": 78,
+			"micro": 58,
+			"multitask": 67,
+			"scouting": 57,
+			"teamwork": 74
+		},
+		"source_profile_index": 0,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "성장 선호 · 신중함"
+	},
+	{
+		"battle": 60,
+		"club_id": "free_agents",
+		"description": "광산 확보와 병력 보존을 선호하는 램파트 선수.",
+		"faction_id": "rampart",
+		"faction_name": "램파트",
+		"hero": {
+			"name": "레인저",
+			"sprite": "04_ranger"
+		},
+		"hero_index": 1,
+		"id": "free_1",
+		"is_reserve": false,
+		"name": "유하",
+		"operation": 82,
+		"portrait": {
+			"alias_of": "player_01",
+			"asset_id": "player_01",
+			"path": "assets/players/player_01.png"
+		},
+		"preference": -0.7,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 22,
+			"judgment": 71,
+			"macro": 82,
+			"micro": 60,
+			"multitask": 70,
+			"scouting": 61,
+			"teamwork": 78
+		},
+		"source_profile_index": 2,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "성장 선호 · 자원 확보"
+	},
+	{
+		"battle": 62,
+		"club_id": "free_agents",
+		"description": "자원을 모아 후반 병력을 준비하는 네크로폴리스 선수.",
+		"faction_id": "necropolis",
+		"faction_name": "네크로폴리스",
+		"hero": {
+			"name": "죽음의 기사",
+			"sprite": "07_death_knight"
+		},
+		"hero_index": 0,
+		"id": "free_2",
+		"is_reserve": false,
+		"name": "은호",
+		"operation": 80,
+		"portrait": {
+			"alias_of": "player_02",
+			"asset_id": "player_02",
+			"path": "assets/players/player_02.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 26,
+			"judgment": 71,
+			"macro": 80,
+			"micro": 62,
+			"multitask": 70,
+			"scouting": 61,
+			"teamwork": 78
+		},
+		"source_profile_index": 4,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "성장 선호 · 신중함"
+	},
+	{
+		"battle": 57,
+		"club_id": "free_agents",
+		"description": "수입을 먼저 확보하는 타워 운영형 선수.",
+		"faction_id": "tower",
+		"faction_name": "타워",
+		"hero": {
+			"name": "마법사",
+			"sprite": "06_wizard"
+		},
+		"hero_index": 1,
+		"id": "free_3",
+		"is_reserve": false,
+		"name": "라온",
+		"operation": 84,
+		"portrait": {
+			"alias_of": "player_03",
+			"asset_id": "player_03",
+			"path": "assets/players/player_03.png"
+		},
+		"preference": -0.9,
+		"roster_slot": 3,
+		"skills": {
+			"aggression": 14,
+			"judgment": 71,
+			"macro": 84,
+			"micro": 57,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 75
+		},
+		"source_profile_index": 6,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "성장 선호 · 장기전"
+	},
+	{
+		"battle": 58,
+		"club_id": "open_a",
+		"description": "안전한 수입을 만든 뒤 출전합니다.\n성장 조언을 꾸준히 수행하는 운영형 선수.",
+		"faction_id": "castle",
+		"faction_name": "캐슬",
+		"hero": {
+			"name": "기사",
+			"sprite": "01_knight"
+		},
+		"hero_index": 0,
+		"id": "open_a_0",
+		"is_reserve": false,
+		"name": "진",
+		"operation": 78,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "open_a_0",
+			"path": "assets/players/open_a_0.png"
+		},
+		"preference": -0.8,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 18,
+			"judgment": 68,
+			"macro": 78,
+			"micro": 58,
+			"multitask": 67,
+			"scouting": 57,
+			"teamwork": 74
+		},
+		"source_profile_index": 0,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "성장 선호 · 신중함"
+	},
+	{
+		"battle": 82,
+		"club_id": "open_a",
+		"description": "충원 뒤 빠른 교전 기회를 노립니다.\n같은 조언에서도 진출 타이밍이 빠릅니다.",
+		"faction_id": "castle",
+		"faction_name": "캐슬",
+		"hero": {
+			"name": "성직자",
+			"sprite": "02_cleric"
+		},
+		"hero_index": 1,
+		"id": "open_a_1",
+		"is_reserve": false,
+		"name": "하루",
+		"operation": 56,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "open_a_1",
+			"path": "assets/players/open_a_1.png"
+		},
+		"preference": 0.8,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 82,
+			"judgment": 68,
+			"macro": 56,
+			"micro": 82,
+			"multitask": 70,
+			"scouting": 65,
+			"teamwork": 61
+		},
+		"source_profile_index": 1,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "교전 선호 · 과감함"
+	},
+	{
+		"battle": 60,
+		"club_id": "open_a",
+		"description": "광산 확보와 병력 보존을 선호하는 램파트 선수.",
+		"faction_id": "rampart",
+		"faction_name": "램파트",
+		"hero": {
+			"name": "드루이드",
+			"sprite": "03_druid"
+		},
+		"hero_index": 0,
+		"id": "open_a_2",
+		"is_reserve": false,
+		"name": "윤",
+		"operation": 82,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "open_a_2",
+			"path": "assets/players/open_a_2.png"
+		},
+		"preference": -0.7,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 22,
+			"judgment": 71,
+			"macro": 82,
+			"micro": 60,
+			"multitask": 70,
+			"scouting": 61,
+			"teamwork": 78
+		},
+		"source_profile_index": 2,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "성장 선호 · 자원 확보"
+	},
+	{
+		"battle": 60,
+		"club_id": "open_b",
+		"description": "광산 확보와 병력 보존을 선호하는 램파트 선수.",
+		"faction_id": "rampart",
+		"faction_name": "램파트",
+		"hero": {
+			"name": "드루이드",
+			"sprite": "03_druid"
+		},
+		"hero_index": 0,
+		"id": "open_b_0",
+		"is_reserve": false,
+		"name": "카엘",
+		"operation": 82,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "open_b_0",
+			"path": "assets/players/open_b_0.png"
+		},
+		"preference": -0.7,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 22,
+			"judgment": 71,
+			"macro": 82,
+			"micro": 60,
+			"multitask": 70,
+			"scouting": 61,
+			"teamwork": 78
+		},
+		"source_profile_index": 2,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "성장 선호 · 자원 확보"
+	},
+	{
+		"battle": 80,
+		"club_id": "open_b",
+		"description": "빠른 진출로 교전 기회를 만드는 램파트 선수.",
+		"faction_id": "rampart",
+		"faction_name": "램파트",
+		"hero": {
+			"name": "레인저",
+			"sprite": "04_ranger"
+		},
+		"hero_index": 1,
+		"id": "open_b_1",
+		"is_reserve": false,
+		"name": "루나",
+		"operation": 61,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "open_b_1",
+			"path": "assets/players/open_b_1.png"
+		},
+		"preference": 0.7,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 78,
+			"judgment": 70,
+			"macro": 61,
+			"micro": 80,
+			"multitask": 71,
+			"scouting": 67,
+			"teamwork": 66
+		},
+		"source_profile_index": 3,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "교전 선호 · 빠른 압박"
+	},
+	{
+		"battle": 62,
+		"club_id": "open_b",
+		"description": "자원을 모아 후반 병력을 준비하는 네크로폴리스 선수.",
+		"faction_id": "necropolis",
+		"faction_name": "네크로폴리스",
+		"hero": {
+			"name": "죽음의 기사",
+			"sprite": "07_death_knight"
+		},
+		"hero_index": 0,
+		"id": "open_b_2",
+		"is_reserve": false,
+		"name": "제드",
+		"operation": 80,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "open_b_2",
+			"path": "assets/players/open_b_2.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 26,
+			"judgment": 71,
+			"macro": 80,
+			"micro": 62,
+			"multitask": 70,
+			"scouting": 61,
+			"teamwork": 78
+		},
+		"source_profile_index": 4,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "성장 선호 · 신중함"
+	},
+	{
+		"battle": 58,
+		"club_id": "club_0",
+		"description": "안전한 수입을 만든 뒤 출전합니다.\n성장 조언을 꾸준히 수행하는 운영형 선수.",
+		"faction_id": "castle",
+		"faction_name": "캐슬",
+		"hero": {
+			"name": "기사",
+			"sprite": "01_knight"
+		},
+		"hero_index": 0,
+		"id": "player_00",
+		"is_reserve": false,
+		"name": "레온",
+		"operation": 78,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "player_00",
+			"path": "assets/players/player_00.png"
+		},
+		"preference": -0.8,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 18,
+			"judgment": 68,
+			"macro": 78,
+			"micro": 58,
+			"multitask": 67,
+			"scouting": 57,
+			"teamwork": 74
+		},
+		"source_profile_index": 0,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "성장 선호 · 신중함"
+	},
+	{
+		"battle": 60,
+		"club_id": "club_0",
+		"description": "광산 확보와 병력 보존을 선호하는 램파트 선수.",
+		"faction_id": "rampart",
+		"faction_name": "램파트",
+		"hero": {
+			"name": "레인저",
+			"sprite": "04_ranger"
+		},
+		"hero_index": 1,
+		"id": "player_01",
+		"is_reserve": false,
+		"name": "실바",
+		"operation": 82,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "player_01",
+			"path": "assets/players/player_01.png"
+		},
+		"preference": -0.7,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 22,
+			"judgment": 71,
+			"macro": 82,
+			"micro": 60,
+			"multitask": 70,
+			"scouting": 61,
+			"teamwork": 78
+		},
+		"source_profile_index": 2,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "성장 선호 · 자원 확보"
+	},
+	{
+		"battle": 62,
+		"club_id": "club_0",
+		"description": "자원을 모아 후반 병력을 준비하는 네크로폴리스 선수.",
+		"faction_id": "necropolis",
+		"faction_name": "네크로폴리스",
+		"hero": {
+			"name": "죽음의 기사",
+			"sprite": "07_death_knight"
+		},
+		"hero_index": 0,
+		"id": "player_02",
+		"is_reserve": false,
+		"name": "녹스",
+		"operation": 80,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "player_02",
+			"path": "assets/players/player_02.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 26,
+			"judgment": 71,
+			"macro": 80,
+			"micro": 62,
+			"multitask": 70,
+			"scouting": 61,
+			"teamwork": 78
+		},
+		"source_profile_index": 4,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "성장 선호 · 신중함"
+	},
+	{
+		"battle": 57,
+		"club_id": "club_0",
+		"description": "수입을 먼저 확보하는 타워 운영형 선수.",
+		"faction_id": "tower",
+		"faction_name": "타워",
+		"hero": {
+			"name": "마법사",
+			"sprite": "06_wizard"
+		},
+		"hero_index": 1,
+		"id": "player_03",
+		"is_reserve": false,
+		"name": "테오",
+		"operation": 84,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "player_03",
+			"path": "assets/players/player_03.png"
+		},
+		"preference": -0.9,
+		"roster_slot": 3,
+		"skills": {
+			"aggression": 14,
+			"judgment": 71,
+			"macro": 84,
+			"micro": 57,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 75
+		},
+		"source_profile_index": 6,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "성장 선호 · 장기전"
+	},
+	{
+		"battle": 82,
+		"club_id": "club_1",
+		"description": "충원 뒤 빠른 교전 기회를 노립니다.\n같은 조언에서도 진출 타이밍이 빠릅니다.",
+		"faction_id": "castle",
+		"faction_name": "캐슬",
+		"hero": {
+			"name": "기사",
+			"sprite": "01_knight"
+		},
+		"hero_index": 0,
+		"id": "player_04",
+		"is_reserve": false,
+		"name": "미라",
+		"operation": 56,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "player_04",
+			"path": "assets/players/player_04.png"
+		},
+		"preference": 0.8,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 82,
+			"judgment": 68,
+			"macro": 56,
+			"micro": 82,
+			"multitask": 70,
+			"scouting": 65,
+			"teamwork": 61
+		},
+		"source_profile_index": 1,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "교전 선호 · 과감함"
+	},
+	{
+		"battle": 80,
+		"club_id": "club_1",
+		"description": "빠른 진출로 교전 기회를 만드는 램파트 선수.",
+		"faction_id": "rampart",
+		"faction_name": "램파트",
+		"hero": {
+			"name": "레인저",
+			"sprite": "04_ranger"
+		},
+		"hero_index": 1,
+		"id": "player_05",
+		"is_reserve": false,
+		"name": "로웬",
+		"operation": 61,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "player_05",
+			"path": "assets/players/player_05.png"
+		},
+		"preference": 0.7,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 78,
+			"judgment": 70,
+			"macro": 61,
+			"micro": 80,
+			"multitask": 71,
+			"scouting": 67,
+			"teamwork": 66
+		},
+		"source_profile_index": 3,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "교전 선호 · 빠른 압박"
+	},
+	{
+		"battle": 83,
+		"club_id": "club_1",
+		"description": "초반 교전과 압박을 선호하는 네크로폴리스 선수.",
+		"faction_id": "necropolis",
+		"faction_name": "네크로폴리스",
+		"hero": {
+			"name": "죽음의 기사",
+			"sprite": "07_death_knight"
+		},
+		"hero_index": 0,
+		"id": "player_06",
+		"is_reserve": false,
+		"name": "레이븐",
+		"operation": 59,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "player_06",
+			"path": "assets/players/player_06.png"
+		},
+		"preference": 0.9,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 86,
+			"judgment": 71,
+			"macro": 59,
+			"micro": 83,
+			"multitask": 72,
+			"scouting": 68,
+			"teamwork": 61
+		},
+		"source_profile_index": 5,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "교전 선호 · 과감함"
+	},
+	{
+		"battle": 79,
+		"club_id": "club_1",
+		"description": "충원 후 교전 타이밍을 찾는 타워 전투형 선수.",
+		"faction_id": "tower",
+		"faction_name": "타워",
+		"hero": {
+			"name": "마법사",
+			"sprite": "06_wizard"
+		},
+		"hero_index": 1,
+		"id": "player_07",
+		"is_reserve": false,
+		"name": "아이리스",
+		"operation": 65,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "player_07",
+			"path": "assets/players/player_07.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 3,
+		"skills": {
+			"aggression": 74,
+			"judgment": 72,
+			"macro": 65,
+			"micro": 79,
+			"multitask": 73,
+			"scouting": 68,
+			"teamwork": 70
+		},
+		"source_profile_index": 7,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "교전 선호 · 적극적"
+	},
+	{
+		"battle": 58,
+		"club_id": "club_2",
+		"description": "안전한 수입을 만든 뒤 출전합니다.\n성장 조언을 꾸준히 수행하는 운영형 선수.",
+		"faction_id": "castle",
+		"faction_name": "캐슬",
+		"hero": {
+			"name": "기사",
+			"sprite": "01_knight"
+		},
+		"hero_index": 0,
+		"id": "player_08",
+		"is_reserve": false,
+		"name": "아론",
+		"operation": 78,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "player_08",
+			"path": "assets/players/player_08.png"
+		},
+		"preference": -0.8,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 18,
+			"judgment": 68,
+			"macro": 78,
+			"micro": 58,
+			"multitask": 67,
+			"scouting": 57,
+			"teamwork": 74
+		},
+		"source_profile_index": 0,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "성장 선호 · 신중함"
+	},
+	{
+		"battle": 60,
+		"club_id": "club_2",
+		"description": "광산 확보와 병력 보존을 선호하는 램파트 선수.",
+		"faction_id": "rampart",
+		"faction_name": "램파트",
+		"hero": {
+			"name": "레인저",
+			"sprite": "04_ranger"
+		},
+		"hero_index": 1,
+		"id": "player_09",
+		"is_reserve": false,
+		"name": "리나",
+		"operation": 82,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "player_09",
+			"path": "assets/players/player_09.png"
+		},
+		"preference": -0.7,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 22,
+			"judgment": 71,
+			"macro": 82,
+			"micro": 60,
+			"multitask": 70,
+			"scouting": 61,
+			"teamwork": 78
+		},
+		"source_profile_index": 2,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "성장 선호 · 자원 확보"
+	},
+	{
+		"battle": 62,
+		"club_id": "club_2",
+		"description": "자원을 모아 후반 병력을 준비하는 네크로폴리스 선수.",
+		"faction_id": "necropolis",
+		"faction_name": "네크로폴리스",
+		"hero": {
+			"name": "죽음의 기사",
+			"sprite": "07_death_knight"
+		},
+		"hero_index": 0,
+		"id": "player_10",
+		"is_reserve": false,
+		"name": "루크",
+		"operation": 80,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "player_10",
+			"path": "assets/players/player_10.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 26,
+			"judgment": 71,
+			"macro": 80,
+			"micro": 62,
+			"multitask": 70,
+			"scouting": 61,
+			"teamwork": 78
+		},
+		"source_profile_index": 4,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "성장 선호 · 신중함"
+	},
+	{
+		"battle": 57,
+		"club_id": "club_2",
+		"description": "수입을 먼저 확보하는 타워 운영형 선수.",
+		"faction_id": "tower",
+		"faction_name": "타워",
+		"hero": {
+			"name": "마법사",
+			"sprite": "06_wizard"
+		},
+		"hero_index": 1,
+		"id": "player_11",
+		"is_reserve": false,
+		"name": "세라",
+		"operation": 84,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "player_11",
+			"path": "assets/players/player_11.png"
+		},
+		"preference": -0.9,
+		"roster_slot": 3,
+		"skills": {
+			"aggression": 14,
+			"judgment": 71,
+			"macro": 84,
+			"micro": 57,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 75
+		},
+		"source_profile_index": 6,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "성장 선호 · 장기전"
+	},
+	{
+		"battle": 82,
+		"club_id": "club_3",
+		"description": "충원 뒤 빠른 교전 기회를 노립니다.\n같은 조언에서도 진출 타이밍이 빠릅니다.",
+		"faction_id": "castle",
+		"faction_name": "캐슬",
+		"hero": {
+			"name": "기사",
+			"sprite": "01_knight"
+		},
+		"hero_index": 0,
+		"id": "player_12",
+		"is_reserve": false,
+		"name": "이안",
+		"operation": 56,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "player_12",
+			"path": "assets/players/player_12.png"
+		},
+		"preference": 0.8,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 82,
+			"judgment": 68,
+			"macro": 56,
+			"micro": 82,
+			"multitask": 70,
+			"scouting": 65,
+			"teamwork": 61
+		},
+		"source_profile_index": 1,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "교전 선호 · 과감함"
+	},
+	{
+		"battle": 80,
+		"club_id": "club_3",
+		"description": "빠른 진출로 교전 기회를 만드는 램파트 선수.",
+		"faction_id": "rampart",
+		"faction_name": "램파트",
+		"hero": {
+			"name": "레인저",
+			"sprite": "04_ranger"
+		},
+		"hero_index": 1,
+		"id": "player_13",
+		"is_reserve": false,
+		"name": "유나",
+		"operation": 61,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "player_13",
+			"path": "assets/players/player_13.png"
+		},
+		"preference": 0.7,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 78,
+			"judgment": 70,
+			"macro": 61,
+			"micro": 80,
+			"multitask": 71,
+			"scouting": 67,
+			"teamwork": 66
+		},
+		"source_profile_index": 3,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "교전 선호 · 빠른 압박"
+	},
+	{
+		"battle": 83,
+		"club_id": "club_3",
+		"description": "초반 교전과 압박을 선호하는 네크로폴리스 선수.",
+		"faction_id": "necropolis",
+		"faction_name": "네크로폴리스",
+		"hero": {
+			"name": "죽음의 기사",
+			"sprite": "07_death_knight"
+		},
+		"hero_index": 0,
+		"id": "player_14",
+		"is_reserve": false,
+		"name": "로이",
+		"operation": 59,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "player_14",
+			"path": "assets/players/player_14.png"
+		},
+		"preference": 0.9,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 86,
+			"judgment": 71,
+			"macro": 59,
+			"micro": 83,
+			"multitask": 72,
+			"scouting": 68,
+			"teamwork": 61
+		},
+		"source_profile_index": 5,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "교전 선호 · 과감함"
+	},
+	{
+		"battle": 79,
+		"club_id": "club_3",
+		"description": "충원 후 교전 타이밍을 찾는 타워 전투형 선수.",
+		"faction_id": "tower",
+		"faction_name": "타워",
+		"hero": {
+			"name": "마법사",
+			"sprite": "06_wizard"
+		},
+		"hero_index": 1,
+		"id": "player_15",
+		"is_reserve": false,
+		"name": "에린",
+		"operation": 65,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "player_15",
+			"path": "assets/players/player_15.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 3,
+		"skills": {
+			"aggression": 74,
+			"judgment": 72,
+			"macro": 65,
+			"micro": 79,
+			"multitask": 73,
+			"scouting": 68,
+			"teamwork": 70
+		},
+		"source_profile_index": 7,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "교전 선호 · 적극적"
+	},
+	{
+		"battle": 62,
+		"club_id": "world_a",
+		"description": "자원을 모아 후반 병력을 준비하는 네크로폴리스 선수.",
+		"faction_id": "necropolis",
+		"faction_name": "네크로폴리스",
+		"hero": {
+			"name": "죽음의 기사",
+			"sprite": "07_death_knight"
+		},
+		"hero_index": 0,
+		"id": "world_a_0",
+		"is_reserve": false,
+		"name": "솔라리스 1",
+		"operation": 80,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "world_a_0",
+			"path": "assets/players/world_a_0.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 26,
+			"judgment": 71,
+			"macro": 80,
+			"micro": 62,
+			"multitask": 70,
+			"scouting": 61,
+			"teamwork": 78
+		},
+		"source_profile_index": 4,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "성장 선호 · 신중함"
+	},
+	{
+		"battle": 83,
+		"club_id": "world_a",
+		"description": "초반 교전과 압박을 선호하는 네크로폴리스 선수.",
+		"faction_id": "necropolis",
+		"faction_name": "네크로폴리스",
+		"hero": {
+			"name": "네크로맨서",
+			"sprite": "08_necromancer"
+		},
+		"hero_index": 1,
+		"id": "world_a_1",
+		"is_reserve": false,
+		"name": "솔라리스 2",
+		"operation": 59,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "world_a_1",
+			"path": "assets/players/world_a_1.png"
+		},
+		"preference": 0.9,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 86,
+			"judgment": 71,
+			"macro": 59,
+			"micro": 83,
+			"multitask": 72,
+			"scouting": 68,
+			"teamwork": 61
+		},
+		"source_profile_index": 5,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "교전 선호 · 과감함"
+	},
+	{
+		"battle": 57,
+		"club_id": "world_a",
+		"description": "수입을 먼저 확보하는 타워 운영형 선수.",
+		"faction_id": "tower",
+		"faction_name": "타워",
+		"hero": {
+			"name": "지니",
+			"sprite": "05_genie"
+		},
+		"hero_index": 0,
+		"id": "world_a_2",
+		"is_reserve": false,
+		"name": "솔라리스 3",
+		"operation": 84,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "world_a_2",
+			"path": "assets/players/world_a_2.png"
+		},
+		"preference": -0.9,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 14,
+			"judgment": 71,
+			"macro": 84,
+			"micro": 57,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 75
+		},
+		"source_profile_index": 6,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "성장 선호 · 장기전"
+	},
+	{
+		"battle": 57,
+		"club_id": "world_b",
+		"description": "수입을 먼저 확보하는 타워 운영형 선수.",
+		"faction_id": "tower",
+		"faction_name": "타워",
+		"hero": {
+			"name": "지니",
+			"sprite": "05_genie"
+		},
+		"hero_index": 0,
+		"id": "world_b_0",
+		"is_reserve": false,
+		"name": "아틀라스 1",
+		"operation": 84,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "world_b_0",
+			"path": "assets/players/world_b_0.png"
+		},
+		"preference": -0.9,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 14,
+			"judgment": 71,
+			"macro": 84,
+			"micro": 57,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 75
+		},
+		"source_profile_index": 6,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "성장 선호 · 장기전"
+	},
+	{
+		"battle": 79,
+		"club_id": "world_b",
+		"description": "충원 후 교전 타이밍을 찾는 타워 전투형 선수.",
+		"faction_id": "tower",
+		"faction_name": "타워",
+		"hero": {
+			"name": "마법사",
+			"sprite": "06_wizard"
+		},
+		"hero_index": 1,
+		"id": "world_b_1",
+		"is_reserve": false,
+		"name": "아틀라스 2",
+		"operation": 65,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "world_b_1",
+			"path": "assets/players/world_b_1.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 74,
+			"judgment": 72,
+			"macro": 65,
+			"micro": 79,
+			"multitask": 73,
+			"scouting": 68,
+			"teamwork": 70
+		},
+		"source_profile_index": 7,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "교전 선호 · 적극적"
+	},
+	{
+		"battle": 62,
+		"club_id": "world_b",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "dungeon",
+		"faction_name": "던전",
+		"hero": {
+			"name": "군주",
+			"sprite": "15_overlord"
+		},
+		"hero_index": 0,
+		"id": "world_b_2",
+		"is_reserve": false,
+		"name": "아틀라스 3",
+		"operation": 78,
+		"portrait": {
+			"alias_of": null,
+			"asset_id": "world_b_2",
+			"path": "assets/players/world_b_2.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 8,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 62,
+		"club_id": "world_c",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "dungeon",
+		"faction_name": "던전",
+		"hero": {
+			"name": "군주",
+			"sprite": "15_overlord"
+		},
+		"hero_index": 0,
+		"id": "world_c_0",
+		"is_reserve": false,
+		"name": "노바 1",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "world_b_0",
+			"asset_id": "world_b_0",
+			"path": "assets/players/world_b_0.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 8,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 78,
+		"club_id": "world_c",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "dungeon",
+		"faction_name": "던전",
+		"hero": {
+			"name": "워록",
+			"sprite": "16_warlock"
+		},
+		"hero_index": 1,
+		"id": "world_c_1",
+		"is_reserve": false,
+		"name": "노바 2",
+		"operation": 62,
+		"portrait": {
+			"alias_of": "world_b_1",
+			"asset_id": "world_b_1",
+			"path": "assets/players/world_b_1.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 74,
+			"judgment": 70,
+			"macro": 62,
+			"micro": 78,
+			"multitask": 71,
+			"scouting": 66,
+			"teamwork": 68
+		},
+		"source_profile_index": 9,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "전투 선호"
+	},
+	{
+		"battle": 62,
+		"club_id": "world_c",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "stronghold",
+		"faction_name": "스트롱홀드",
+		"hero": {
+			"name": "야만전사",
+			"sprite": "09_barbarian"
+		},
+		"hero_index": 0,
+		"id": "world_c_2",
+		"is_reserve": false,
+		"name": "노바 3",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "world_b_2",
+			"asset_id": "world_b_2",
+			"path": "assets/players/world_b_2.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 10,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 62,
+		"club_id": "world_d",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "stronghold",
+		"faction_name": "스트롱홀드",
+		"hero": {
+			"name": "야만전사",
+			"sprite": "09_barbarian"
+		},
+		"hero_index": 0,
+		"id": "world_d_0",
+		"is_reserve": false,
+		"name": "오리온 1",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "world_a_0",
+			"asset_id": "world_a_0",
+			"path": "assets/players/world_a_0.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 10,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 78,
+		"club_id": "world_d",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "stronghold",
+		"faction_name": "스트롱홀드",
+		"hero": {
+			"name": "전투술사",
+			"sprite": "10_battle_mage"
+		},
+		"hero_index": 1,
+		"id": "world_d_1",
+		"is_reserve": false,
+		"name": "오리온 2",
+		"operation": 62,
+		"portrait": {
+			"alias_of": "world_a_1",
+			"asset_id": "world_a_1",
+			"path": "assets/players/world_a_1.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 74,
+			"judgment": 70,
+			"macro": 62,
+			"micro": 78,
+			"multitask": 71,
+			"scouting": 66,
+			"teamwork": 68
+		},
+		"source_profile_index": 11,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "전투 선호"
+	},
+	{
+		"battle": 62,
+		"club_id": "world_d",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "fortress",
+		"faction_name": "포트리스",
+		"hero": {
+			"name": "비스트마스터",
+			"sprite": "11_beastmaster"
+		},
+		"hero_index": 0,
+		"id": "world_d_2",
+		"is_reserve": false,
+		"name": "오리온 3",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "world_a_2",
+			"asset_id": "world_a_2",
+			"path": "assets/players/world_a_2.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 12,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 62,
+		"club_id": "world_e",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "fortress",
+		"faction_name": "포트리스",
+		"hero": {
+			"name": "비스트마스터",
+			"sprite": "11_beastmaster"
+		},
+		"hero_index": 0,
+		"id": "world_e_0",
+		"is_reserve": false,
+		"name": "제니스 1",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "world_b_0",
+			"asset_id": "world_b_0",
+			"path": "assets/players/world_b_0.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 12,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 78,
+		"club_id": "world_e",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "fortress",
+		"faction_name": "포트리스",
+		"hero": {
+			"name": "위치",
+			"sprite": "12_witch"
+		},
+		"hero_index": 1,
+		"id": "world_e_1",
+		"is_reserve": false,
+		"name": "제니스 2",
+		"operation": 62,
+		"portrait": {
+			"alias_of": "world_b_1",
+			"asset_id": "world_b_1",
+			"path": "assets/players/world_b_1.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 74,
+			"judgment": 70,
+			"macro": 62,
+			"micro": 78,
+			"multitask": 71,
+			"scouting": 66,
+			"teamwork": 68
+		},
+		"source_profile_index": 13,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "전투 선호"
+	},
+	{
+		"battle": 62,
+		"club_id": "world_e",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "conflux",
+		"faction_name": "컨플럭스",
+		"hero": {
+			"name": "플레인워커",
+			"sprite": "13_planeswalker"
+		},
+		"hero_index": 0,
+		"id": "world_e_2",
+		"is_reserve": false,
+		"name": "제니스 3",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "world_b_2",
+			"asset_id": "world_b_2",
+			"path": "assets/players/world_b_2.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 14,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 62,
+		"club_id": "world_f",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "conflux",
+		"faction_name": "컨플럭스",
+		"hero": {
+			"name": "플레인워커",
+			"sprite": "13_planeswalker"
+		},
+		"hero_index": 0,
+		"id": "world_f_0",
+		"is_reserve": false,
+		"name": "세라프 1",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "world_a_0",
+			"asset_id": "world_a_0",
+			"path": "assets/players/world_a_0.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 14,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 78,
+		"club_id": "world_f",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "conflux",
+		"faction_name": "컨플럭스",
+		"hero": {
+			"name": "엘리멘탈리스트",
+			"sprite": "14_elementalist"
+		},
+		"hero_index": 1,
+		"id": "world_f_1",
+		"is_reserve": false,
+		"name": "세라프 2",
+		"operation": 62,
+		"portrait": {
+			"alias_of": "world_a_1",
+			"asset_id": "world_a_1",
+			"path": "assets/players/world_a_1.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 74,
+			"judgment": 70,
+			"macro": 62,
+			"micro": 78,
+			"multitask": 71,
+			"scouting": 66,
+			"teamwork": 68
+		},
+		"source_profile_index": 15,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "전투 선호"
+	},
+	{
+		"battle": 58,
+		"club_id": "world_f",
+		"description": "안전한 수입을 만든 뒤 출전합니다.\n성장 조언을 꾸준히 수행하는 운영형 선수.",
+		"faction_id": "castle",
+		"faction_name": "캐슬",
+		"hero": {
+			"name": "기사",
+			"sprite": "01_knight"
+		},
+		"hero_index": 0,
+		"id": "world_f_2",
+		"is_reserve": false,
+		"name": "세라프 3",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "world_a_2",
+			"asset_id": "world_a_2",
+			"path": "assets/players/world_a_2.png"
+		},
+		"preference": -0.8,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 18,
+			"judgment": 68,
+			"macro": 78,
+			"micro": 58,
+			"multitask": 67,
+			"scouting": 57,
+			"teamwork": 74
+		},
+		"source_profile_index": 0,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "성장 선호 · 신중함"
+	},
+	{
+		"battle": 58,
+		"club_id": "world_g",
+		"description": "안전한 수입을 만든 뒤 출전합니다.\n성장 조언을 꾸준히 수행하는 운영형 선수.",
+		"faction_id": "castle",
+		"faction_name": "캐슬",
+		"hero": {
+			"name": "기사",
+			"sprite": "01_knight"
+		},
+		"hero_index": 0,
+		"id": "world_g_0",
+		"is_reserve": false,
+		"name": "볼텍스 1",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "world_b_0",
+			"asset_id": "world_b_0",
+			"path": "assets/players/world_b_0.png"
+		},
+		"preference": -0.8,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 18,
+			"judgment": 68,
+			"macro": 78,
+			"micro": 58,
+			"multitask": 67,
+			"scouting": 57,
+			"teamwork": 74
+		},
+		"source_profile_index": 0,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "성장 선호 · 신중함"
+	},
+	{
+		"battle": 82,
+		"club_id": "world_g",
+		"description": "충원 뒤 빠른 교전 기회를 노립니다.\n같은 조언에서도 진출 타이밍이 빠릅니다.",
+		"faction_id": "castle",
+		"faction_name": "캐슬",
+		"hero": {
+			"name": "성직자",
+			"sprite": "02_cleric"
+		},
+		"hero_index": 1,
+		"id": "world_g_1",
+		"is_reserve": false,
+		"name": "볼텍스 2",
+		"operation": 56,
+		"portrait": {
+			"alias_of": "world_b_1",
+			"asset_id": "world_b_1",
+			"path": "assets/players/world_b_1.png"
+		},
+		"preference": 0.8,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 82,
+			"judgment": 68,
+			"macro": 56,
+			"micro": 82,
+			"multitask": 70,
+			"scouting": 65,
+			"teamwork": 61
+		},
+		"source_profile_index": 1,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "교전 선호 · 과감함"
+	},
+	{
+		"battle": 60,
+		"club_id": "world_g",
+		"description": "광산 확보와 병력 보존을 선호하는 램파트 선수.",
+		"faction_id": "rampart",
+		"faction_name": "램파트",
+		"hero": {
+			"name": "드루이드",
+			"sprite": "03_druid"
+		},
+		"hero_index": 0,
+		"id": "world_g_2",
+		"is_reserve": false,
+		"name": "볼텍스 3",
+		"operation": 82,
+		"portrait": {
+			"alias_of": "world_b_2",
+			"asset_id": "world_b_2",
+			"path": "assets/players/world_b_2.png"
+		},
+		"preference": -0.7,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 22,
+			"judgment": 71,
+			"macro": 82,
+			"micro": 60,
+			"multitask": 70,
+			"scouting": 61,
+			"teamwork": 78
+		},
+		"source_profile_index": 2,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "성장 선호 · 자원 확보"
+	},
+	{
+		"battle": 60,
+		"club_id": "world_h",
+		"description": "광산 확보와 병력 보존을 선호하는 램파트 선수.",
+		"faction_id": "rampart",
+		"faction_name": "램파트",
+		"hero": {
+			"name": "드루이드",
+			"sprite": "03_druid"
+		},
+		"hero_index": 0,
+		"id": "world_h_0",
+		"is_reserve": false,
+		"name": "코멧 1",
+		"operation": 82,
+		"portrait": {
+			"alias_of": "world_a_0",
+			"asset_id": "world_a_0",
+			"path": "assets/players/world_a_0.png"
+		},
+		"preference": -0.7,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 22,
+			"judgment": 71,
+			"macro": 82,
+			"micro": 60,
+			"multitask": 70,
+			"scouting": 61,
+			"teamwork": 78
+		},
+		"source_profile_index": 2,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "성장 선호 · 자원 확보"
+	},
+	{
+		"battle": 80,
+		"club_id": "world_h",
+		"description": "빠른 진출로 교전 기회를 만드는 램파트 선수.",
+		"faction_id": "rampart",
+		"faction_name": "램파트",
+		"hero": {
+			"name": "레인저",
+			"sprite": "04_ranger"
+		},
+		"hero_index": 1,
+		"id": "world_h_1",
+		"is_reserve": false,
+		"name": "코멧 2",
+		"operation": 61,
+		"portrait": {
+			"alias_of": "world_a_1",
+			"asset_id": "world_a_1",
+			"path": "assets/players/world_a_1.png"
+		},
+		"preference": 0.7,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 78,
+			"judgment": 70,
+			"macro": 61,
+			"micro": 80,
+			"multitask": 71,
+			"scouting": 67,
+			"teamwork": 66
+		},
+		"source_profile_index": 3,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "교전 선호 · 빠른 압박"
+	},
+	{
+		"battle": 62,
+		"club_id": "world_h",
+		"description": "자원을 모아 후반 병력을 준비하는 네크로폴리스 선수.",
+		"faction_id": "necropolis",
+		"faction_name": "네크로폴리스",
+		"hero": {
+			"name": "죽음의 기사",
+			"sprite": "07_death_knight"
+		},
+		"hero_index": 0,
+		"id": "world_h_2",
+		"is_reserve": false,
+		"name": "코멧 3",
+		"operation": 80,
+		"portrait": {
+			"alias_of": "world_a_2",
+			"asset_id": "world_a_2",
+			"path": "assets/players/world_a_2.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 26,
+			"judgment": 71,
+			"macro": 80,
+			"micro": 62,
+			"multitask": 70,
+			"scouting": 61,
+			"teamwork": 78
+		},
+		"source_profile_index": 4,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "성장 선호 · 신중함"
+	},
+	{
+		"battle": 62,
+		"club_id": "world_i",
+		"description": "자원을 모아 후반 병력을 준비하는 네크로폴리스 선수.",
+		"faction_id": "necropolis",
+		"faction_name": "네크로폴리스",
+		"hero": {
+			"name": "죽음의 기사",
+			"sprite": "07_death_knight"
+		},
+		"hero_index": 0,
+		"id": "world_i_0",
+		"is_reserve": false,
+		"name": "아크 1",
+		"operation": 80,
+		"portrait": {
+			"alias_of": "world_b_0",
+			"asset_id": "world_b_0",
+			"path": "assets/players/world_b_0.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 26,
+			"judgment": 71,
+			"macro": 80,
+			"micro": 62,
+			"multitask": 70,
+			"scouting": 61,
+			"teamwork": 78
+		},
+		"source_profile_index": 4,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "성장 선호 · 신중함"
+	},
+	{
+		"battle": 83,
+		"club_id": "world_i",
+		"description": "초반 교전과 압박을 선호하는 네크로폴리스 선수.",
+		"faction_id": "necropolis",
+		"faction_name": "네크로폴리스",
+		"hero": {
+			"name": "네크로맨서",
+			"sprite": "08_necromancer"
+		},
+		"hero_index": 1,
+		"id": "world_i_1",
+		"is_reserve": false,
+		"name": "아크 2",
+		"operation": 59,
+		"portrait": {
+			"alias_of": "world_b_1",
+			"asset_id": "world_b_1",
+			"path": "assets/players/world_b_1.png"
+		},
+		"preference": 0.9,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 86,
+			"judgment": 71,
+			"macro": 59,
+			"micro": 83,
+			"multitask": 72,
+			"scouting": 68,
+			"teamwork": 61
+		},
+		"source_profile_index": 5,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "교전 선호 · 과감함"
+	},
+	{
+		"battle": 57,
+		"club_id": "world_i",
+		"description": "수입을 먼저 확보하는 타워 운영형 선수.",
+		"faction_id": "tower",
+		"faction_name": "타워",
+		"hero": {
+			"name": "지니",
+			"sprite": "05_genie"
+		},
+		"hero_index": 0,
+		"id": "world_i_2",
+		"is_reserve": false,
+		"name": "아크 3",
+		"operation": 84,
+		"portrait": {
+			"alias_of": "world_b_2",
+			"asset_id": "world_b_2",
+			"path": "assets/players/world_b_2.png"
+		},
+		"preference": -0.9,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 14,
+			"judgment": 71,
+			"macro": 84,
+			"micro": 57,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 75
+		},
+		"source_profile_index": 6,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "성장 선호 · 장기전"
+	},
+	{
+		"battle": 57,
+		"club_id": "world_j",
+		"description": "수입을 먼저 확보하는 타워 운영형 선수.",
+		"faction_id": "tower",
+		"faction_name": "타워",
+		"hero": {
+			"name": "지니",
+			"sprite": "05_genie"
+		},
+		"hero_index": 0,
+		"id": "world_j_0",
+		"is_reserve": false,
+		"name": "퀘이사 1",
+		"operation": 84,
+		"portrait": {
+			"alias_of": "world_a_0",
+			"asset_id": "world_a_0",
+			"path": "assets/players/world_a_0.png"
+		},
+		"preference": -0.9,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 14,
+			"judgment": 71,
+			"macro": 84,
+			"micro": 57,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 75
+		},
+		"source_profile_index": 6,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "성장 선호 · 장기전"
+	},
+	{
+		"battle": 79,
+		"club_id": "world_j",
+		"description": "충원 후 교전 타이밍을 찾는 타워 전투형 선수.",
+		"faction_id": "tower",
+		"faction_name": "타워",
+		"hero": {
+			"name": "마법사",
+			"sprite": "06_wizard"
+		},
+		"hero_index": 1,
+		"id": "world_j_1",
+		"is_reserve": false,
+		"name": "퀘이사 2",
+		"operation": 65,
+		"portrait": {
+			"alias_of": "world_a_1",
+			"asset_id": "world_a_1",
+			"path": "assets/players/world_a_1.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 74,
+			"judgment": 72,
+			"macro": 65,
+			"micro": 79,
+			"multitask": 73,
+			"scouting": 68,
+			"teamwork": 70
+		},
+		"source_profile_index": 7,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "교전 선호 · 적극적"
+	},
+	{
+		"battle": 62,
+		"club_id": "world_j",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "dungeon",
+		"faction_name": "던전",
+		"hero": {
+			"name": "군주",
+			"sprite": "15_overlord"
+		},
+		"hero_index": 0,
+		"id": "world_j_2",
+		"is_reserve": false,
+		"name": "퀘이사 3",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "world_a_2",
+			"asset_id": "world_a_2",
+			"path": "assets/players/world_a_2.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 8,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 62,
+		"club_id": "world_k",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "dungeon",
+		"faction_name": "던전",
+		"hero": {
+			"name": "군주",
+			"sprite": "15_overlord"
+		},
+		"hero_index": 0,
+		"id": "world_k_0",
+		"is_reserve": false,
+		"name": "네뷸라 1",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "world_b_0",
+			"asset_id": "world_b_0",
+			"path": "assets/players/world_b_0.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 8,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 78,
+		"club_id": "world_k",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "dungeon",
+		"faction_name": "던전",
+		"hero": {
+			"name": "워록",
+			"sprite": "16_warlock"
+		},
+		"hero_index": 1,
+		"id": "world_k_1",
+		"is_reserve": false,
+		"name": "네뷸라 2",
+		"operation": 62,
+		"portrait": {
+			"alias_of": "world_b_1",
+			"asset_id": "world_b_1",
+			"path": "assets/players/world_b_1.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 74,
+			"judgment": 70,
+			"macro": 62,
+			"micro": 78,
+			"multitask": 71,
+			"scouting": 66,
+			"teamwork": 68
+		},
+		"source_profile_index": 9,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "전투 선호"
+	},
+	{
+		"battle": 62,
+		"club_id": "world_k",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "stronghold",
+		"faction_name": "스트롱홀드",
+		"hero": {
+			"name": "야만전사",
+			"sprite": "09_barbarian"
+		},
+		"hero_index": 0,
+		"id": "world_k_2",
+		"is_reserve": false,
+		"name": "네뷸라 3",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "world_b_2",
+			"asset_id": "world_b_2",
+			"path": "assets/players/world_b_2.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 10,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 62,
+		"club_id": "world_l",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "stronghold",
+		"faction_name": "스트롱홀드",
+		"hero": {
+			"name": "야만전사",
+			"sprite": "09_barbarian"
+		},
+		"hero_index": 0,
+		"id": "world_l_0",
+		"is_reserve": false,
+		"name": "폴라리스 1",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "world_a_0",
+			"asset_id": "world_a_0",
+			"path": "assets/players/world_a_0.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 10,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 78,
+		"club_id": "world_l",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "stronghold",
+		"faction_name": "스트롱홀드",
+		"hero": {
+			"name": "전투술사",
+			"sprite": "10_battle_mage"
+		},
+		"hero_index": 1,
+		"id": "world_l_1",
+		"is_reserve": false,
+		"name": "폴라리스 2",
+		"operation": 62,
+		"portrait": {
+			"alias_of": "world_a_1",
+			"asset_id": "world_a_1",
+			"path": "assets/players/world_a_1.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 74,
+			"judgment": 70,
+			"macro": 62,
+			"micro": 78,
+			"multitask": 71,
+			"scouting": 66,
+			"teamwork": 68
+		},
+		"source_profile_index": 11,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "전투 선호"
+	},
+	{
+		"battle": 62,
+		"club_id": "world_l",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "fortress",
+		"faction_name": "포트리스",
+		"hero": {
+			"name": "비스트마스터",
+			"sprite": "11_beastmaster"
+		},
+		"hero_index": 0,
+		"id": "world_l_2",
+		"is_reserve": false,
+		"name": "폴라리스 3",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "world_a_2",
+			"asset_id": "world_a_2",
+			"path": "assets/players/world_a_2.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 12,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 62,
+		"club_id": "world_m",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "fortress",
+		"faction_name": "포트리스",
+		"hero": {
+			"name": "비스트마스터",
+			"sprite": "11_beastmaster"
+		},
+		"hero_index": 0,
+		"id": "world_m_0",
+		"is_reserve": false,
+		"name": "이그니스 1",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "world_b_0",
+			"asset_id": "world_b_0",
+			"path": "assets/players/world_b_0.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 12,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 78,
+		"club_id": "world_m",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "fortress",
+		"faction_name": "포트리스",
+		"hero": {
+			"name": "위치",
+			"sprite": "12_witch"
+		},
+		"hero_index": 1,
+		"id": "world_m_1",
+		"is_reserve": false,
+		"name": "이그니스 2",
+		"operation": 62,
+		"portrait": {
+			"alias_of": "world_b_1",
+			"asset_id": "world_b_1",
+			"path": "assets/players/world_b_1.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 74,
+			"judgment": 70,
+			"macro": 62,
+			"micro": 78,
+			"multitask": 71,
+			"scouting": 66,
+			"teamwork": 68
+		},
+		"source_profile_index": 13,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "전투 선호"
+	},
+	{
+		"battle": 62,
+		"club_id": "world_m",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "conflux",
+		"faction_name": "컨플럭스",
+		"hero": {
+			"name": "플레인워커",
+			"sprite": "13_planeswalker"
+		},
+		"hero_index": 0,
+		"id": "world_m_2",
+		"is_reserve": false,
+		"name": "이그니스 3",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "world_b_2",
+			"asset_id": "world_b_2",
+			"path": "assets/players/world_b_2.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 14,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 62,
+		"club_id": "world_n",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "conflux",
+		"faction_name": "컨플럭스",
+		"hero": {
+			"name": "플레인워커",
+			"sprite": "13_planeswalker"
+		},
+		"hero_index": 0,
+		"id": "world_n_0",
+		"is_reserve": false,
+		"name": "셀레스 1",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "world_a_0",
+			"asset_id": "world_a_0",
+			"path": "assets/players/world_a_0.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 26,
+			"judgment": 70,
+			"macro": 78,
+			"micro": 62,
+			"multitask": 69,
+			"scouting": 60,
+			"teamwork": 77
+		},
+		"source_profile_index": 14,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "운영 선호"
+	},
+	{
+		"battle": 78,
+		"club_id": "world_n",
+		"description": "신규 종족을 주종족으로 사용하는 프로선수.",
+		"faction_id": "conflux",
+		"faction_name": "컨플럭스",
+		"hero": {
+			"name": "엘리멘탈리스트",
+			"sprite": "14_elementalist"
+		},
+		"hero_index": 1,
+		"id": "world_n_1",
+		"is_reserve": false,
+		"name": "셀레스 2",
+		"operation": 62,
+		"portrait": {
+			"alias_of": "world_a_1",
+			"asset_id": "world_a_1",
+			"path": "assets/players/world_a_1.png"
+		},
+		"preference": 0.6,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 74,
+			"judgment": 70,
+			"macro": 62,
+			"micro": 78,
+			"multitask": 71,
+			"scouting": 66,
+			"teamwork": 68
+		},
+		"source_profile_index": 15,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "전투 선호"
+	},
+	{
+		"battle": 58,
+		"club_id": "world_n",
+		"description": "안전한 수입을 만든 뒤 출전합니다.\n성장 조언을 꾸준히 수행하는 운영형 선수.",
+		"faction_id": "castle",
+		"faction_name": "캐슬",
+		"hero": {
+			"name": "기사",
+			"sprite": "01_knight"
+		},
+		"hero_index": 0,
+		"id": "world_n_2",
+		"is_reserve": false,
+		"name": "셀레스 3",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "world_a_2",
+			"asset_id": "world_a_2",
+			"path": "assets/players/world_a_2.png"
+		},
+		"preference": -0.8,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 18,
+			"judgment": 68,
+			"macro": 78,
+			"micro": 58,
+			"multitask": 67,
+			"scouting": 57,
+			"teamwork": 74
+		},
+		"source_profile_index": 0,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "성장 선호 · 신중함"
+	},
+	{
+		"battle": 58,
+		"club_id": "world_o",
+		"description": "안전한 수입을 만든 뒤 출전합니다.\n성장 조언을 꾸준히 수행하는 운영형 선수.",
+		"faction_id": "castle",
+		"faction_name": "캐슬",
+		"hero": {
+			"name": "기사",
+			"sprite": "01_knight"
+		},
+		"hero_index": 0,
+		"id": "world_o_0",
+		"is_reserve": false,
+		"name": "레버넌트 1",
+		"operation": 78,
+		"portrait": {
+			"alias_of": "world_b_0",
+			"asset_id": "world_b_0",
+			"path": "assets/players/world_b_0.png"
+		},
+		"preference": -0.8,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 18,
+			"judgment": 68,
+			"macro": 78,
+			"micro": 58,
+			"multitask": 67,
+			"scouting": 57,
+			"teamwork": 74
+		},
+		"source_profile_index": 0,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "성장 선호 · 신중함"
+	},
+	{
+		"battle": 82,
+		"club_id": "world_o",
+		"description": "충원 뒤 빠른 교전 기회를 노립니다.\n같은 조언에서도 진출 타이밍이 빠릅니다.",
+		"faction_id": "castle",
+		"faction_name": "캐슬",
+		"hero": {
+			"name": "성직자",
+			"sprite": "02_cleric"
+		},
+		"hero_index": 1,
+		"id": "world_o_1",
+		"is_reserve": false,
+		"name": "레버넌트 2",
+		"operation": 56,
+		"portrait": {
+			"alias_of": "world_b_1",
+			"asset_id": "world_b_1",
+			"path": "assets/players/world_b_1.png"
+		},
+		"preference": 0.8,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 82,
+			"judgment": 68,
+			"macro": 56,
+			"micro": 82,
+			"multitask": 70,
+			"scouting": 65,
+			"teamwork": 61
+		},
+		"source_profile_index": 1,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "교전 선호 · 과감함"
+	},
+	{
+		"battle": 60,
+		"club_id": "world_o",
+		"description": "광산 확보와 병력 보존을 선호하는 램파트 선수.",
+		"faction_id": "rampart",
+		"faction_name": "램파트",
+		"hero": {
+			"name": "드루이드",
+			"sprite": "03_druid"
+		},
+		"hero_index": 0,
+		"id": "world_o_2",
+		"is_reserve": false,
+		"name": "레버넌트 3",
+		"operation": 82,
+		"portrait": {
+			"alias_of": "world_b_2",
+			"asset_id": "world_b_2",
+			"path": "assets/players/world_b_2.png"
+		},
+		"preference": -0.7,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 22,
+			"judgment": 71,
+			"macro": 82,
+			"micro": 60,
+			"multitask": 70,
+			"scouting": 61,
+			"teamwork": 78
+		},
+		"source_profile_index": 2,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "성장 선호 · 자원 확보"
+	},
+	{
+		"battle": 60,
+		"club_id": "world_p",
+		"description": "광산 확보와 병력 보존을 선호하는 램파트 선수.",
+		"faction_id": "rampart",
+		"faction_name": "램파트",
+		"hero": {
+			"name": "드루이드",
+			"sprite": "03_druid"
+		},
+		"hero_index": 0,
+		"id": "world_p_0",
+		"is_reserve": false,
+		"name": "크로노스 1",
+		"operation": 82,
+		"portrait": {
+			"alias_of": "world_a_0",
+			"asset_id": "world_a_0",
+			"path": "assets/players/world_a_0.png"
+		},
+		"preference": -0.7,
+		"roster_slot": 0,
+		"skills": {
+			"aggression": 22,
+			"judgment": 71,
+			"macro": 82,
+			"micro": 60,
+			"multitask": 70,
+			"scouting": 61,
+			"teamwork": 78
+		},
+		"source_profile_index": 2,
+		"strategy": {
+			"depart": 28,
+			"detail": "본진 수입을 늘려 후반 병력을 확보합니다.",
+			"name": "자원 위주",
+			"tag": "광산 → 경제 투자 → 충원"
+		},
+		"strategy_index": 0,
+		"tag": "성장 선호 · 자원 확보"
+	},
+	{
+		"battle": 80,
+		"club_id": "world_p",
+		"description": "빠른 진출로 교전 기회를 만드는 램파트 선수.",
+		"faction_id": "rampart",
+		"faction_name": "램파트",
+		"hero": {
+			"name": "레인저",
+			"sprite": "04_ranger"
+		},
+		"hero_index": 1,
+		"id": "world_p_1",
+		"is_reserve": false,
+		"name": "크로노스 2",
+		"operation": 61,
+		"portrait": {
+			"alias_of": "world_a_1",
+			"asset_id": "world_a_1",
+			"path": "assets/players/world_a_1.png"
+		},
+		"preference": 0.7,
+		"roster_slot": 1,
+		"skills": {
+			"aggression": 78,
+			"judgment": 70,
+			"macro": 61,
+			"micro": 80,
+			"multitask": 71,
+			"scouting": 67,
+			"teamwork": 66
+		},
+		"source_profile_index": 3,
+		"strategy": {
+			"depart": 17,
+			"detail": "초기 병력으로 캠프 보상을 챙겨 압박합니다.",
+			"name": "병력 위주",
+			"tag": "충원 → 중립 캠프 → 진출"
+		},
+		"strategy_index": 1,
+		"tag": "교전 선호 · 빠른 압박"
+	},
+	{
+		"battle": 62,
+		"club_id": "world_p",
+		"description": "자원을 모아 후반 병력을 준비하는 네크로폴리스 선수.",
+		"faction_id": "necropolis",
+		"faction_name": "네크로폴리스",
+		"hero": {
+			"name": "죽음의 기사",
+			"sprite": "07_death_knight"
+		},
+		"hero_index": 0,
+		"id": "world_p_2",
+		"is_reserve": false,
+		"name": "크로노스 3",
+		"operation": 80,
+		"portrait": {
+			"alias_of": "world_a_2",
+			"asset_id": "world_a_2",
+			"path": "assets/players/world_a_2.png"
+		},
+		"preference": -0.6,
+		"roster_slot": 2,
+		"skills": {
+			"aggression": 26,
+			"judgment": 71,
+			"macro": 80,
+			"micro": 62,
+			"multitask": 70,
+			"scouting": 61,
+			"teamwork": 78
+		},
+		"source_profile_index": 4,
+		"strategy": {
+			"depart": 5,
+			"detail": "성장 투자를 포기하고 빠른 교전을 노립니다.",
+			"name": "초반 기습",
+			"tag": "즉시 충원 → 적 본진 직행"
+		},
+		"strategy_index": 2,
+		"tag": "성장 선호 · 신중함"
+	}
+]

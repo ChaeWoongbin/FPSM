@@ -1,0 +1,595 @@
+[
+	{
+		"division": 1,
+		"emblem": {
+			"alias_of": null,
+			"asset_id": "club_0",
+			"path": "assets/clubs/club_0.png"
+		},
+		"id": "club_0",
+		"initial_roster_ids": [
+			"player_00",
+			"player_01",
+			"player_02",
+			"player_03",
+			"club_0_sub_4"
+		],
+		"kind": "domestic",
+		"name": "오로라"
+	},
+	{
+		"division": 1,
+		"emblem": {
+			"alias_of": null,
+			"asset_id": "club_1",
+			"path": "assets/clubs/club_1.png"
+		},
+		"id": "club_1",
+		"initial_roster_ids": [
+			"player_04",
+			"player_05",
+			"player_06",
+			"player_07",
+			"club_1_sub_4"
+		],
+		"kind": "domestic",
+		"name": "크림슨"
+	},
+	{
+		"division": 1,
+		"emblem": {
+			"alias_of": null,
+			"asset_id": "club_10",
+			"path": "assets/clubs/club_10.png"
+		},
+		"id": "club_10",
+		"initial_roster_ids": [
+			"club_10_player_0",
+			"club_10_player_1",
+			"club_10_player_2",
+			"club_10_player_3",
+			"club_10_sub_4"
+		],
+		"kind": "domestic",
+		"name": "타이탄"
+	},
+	{
+		"division": 1,
+		"emblem": {
+			"alias_of": null,
+			"asset_id": "club_11",
+			"path": "assets/clubs/club_11.png"
+		},
+		"id": "club_11",
+		"initial_roster_ids": [
+			"club_11_player_0",
+			"club_11_player_1",
+			"club_11_player_2",
+			"club_11_player_3",
+			"club_11_sub_4"
+		],
+		"kind": "domestic",
+		"name": "오닉스"
+	},
+	{
+		"division": 2,
+		"emblem": {
+			"alias_of": null,
+			"asset_id": "club_12",
+			"path": "assets/clubs/club_12.png"
+		},
+		"id": "club_12",
+		"initial_roster_ids": [
+			"club_12_player_0",
+			"club_12_player_1",
+			"club_12_player_2",
+			"club_12_player_3",
+			"club_12_sub_4"
+		],
+		"kind": "domestic",
+		"name": "하이드라"
+	},
+	{
+		"division": 2,
+		"emblem": {
+			"alias_of": null,
+			"asset_id": "club_13",
+			"path": "assets/clubs/club_13.png"
+		},
+		"id": "club_13",
+		"initial_roster_ids": [
+			"club_13_player_0",
+			"club_13_player_1",
+			"club_13_player_2",
+			"club_13_player_3",
+			"club_13_sub_4"
+		],
+		"kind": "domestic",
+		"name": "발키리"
+	},
+	{
+		"division": 2,
+		"emblem": {
+			"alias_of": null,
+			"asset_id": "club_14",
+			"path": "assets/clubs/club_14.png"
+		},
+		"id": "club_14",
+		"initial_roster_ids": [
+			"club_14_player_0",
+			"club_14_player_1",
+			"club_14_player_2",
+			"club_14_player_3",
+			"club_14_sub_4"
+		],
+		"kind": "domestic",
+		"name": "셰이드"
+	},
+	{
+		"division": 2,
+		"emblem": {
+			"alias_of": null,
+			"asset_id": "club_15",
+			"path": "assets/clubs/club_15.png"
+		},
+		"id": "club_15",
+		"initial_roster_ids": [
+			"club_15_player_0",
+			"club_15_player_1",
+			"club_15_player_2",
+			"club_15_player_3",
+			"club_15_sub_4"
+		],
+		"kind": "domestic",
+		"name": "템페스트"
+	},
+	{
+		"division": 1,
+		"emblem": {
+			"alias_of": null,
+			"asset_id": "club_2",
+			"path": "assets/clubs/club_2.png"
+		},
+		"id": "club_2",
+		"initial_roster_ids": [
+			"player_08",
+			"player_09",
+			"player_10",
+			"player_11",
+			"club_2_sub_4"
+		],
+		"kind": "domestic",
+		"name": "노스윈드"
+	},
+	{
+		"division": 1,
+		"emblem": {
+			"alias_of": null,
+			"asset_id": "club_3",
+			"path": "assets/clubs/club_3.png"
+		},
+		"id": "club_3",
+		"initial_roster_ids": [
+			"player_12",
+			"player_13",
+			"player_14",
+			"player_15",
+			"club_3_sub_4"
+		],
+		"kind": "domestic",
+		"name": "이클립스"
+	},
+	{
+		"division": 2,
+		"emblem": {
+			"alias_of": "expansion_08",
+			"asset_id": "expansion_08",
+			"path": "assets/clubs/expansion_08.png"
+		},
+		"id": "club_4",
+		"initial_roster_ids": [
+			"club_4_player_0",
+			"club_4_player_1",
+			"club_4_player_2",
+			"club_4_player_3",
+			"club_4_sub_4"
+		],
+		"kind": "domestic",
+		"name": "스톰"
+	},
+	{
+		"division": 2,
+		"emblem": {
+			"alias_of": "expansion_09",
+			"asset_id": "expansion_09",
+			"path": "assets/clubs/expansion_09.png"
+		},
+		"id": "club_5",
+		"initial_roster_ids": [
+			"club_5_player_0",
+			"club_5_player_1",
+			"club_5_player_2",
+			"club_5_player_3",
+			"club_5_sub_4"
+		],
+		"kind": "domestic",
+		"name": "피닉스"
+	},
+	{
+		"division": 2,
+		"emblem": {
+			"alias_of": "expansion_07",
+			"asset_id": "expansion_07",
+			"path": "assets/clubs/expansion_07.png"
+		},
+		"id": "club_6",
+		"initial_roster_ids": [
+			"club_6_player_0",
+			"club_6_player_1",
+			"club_6_player_2",
+			"club_6_player_3",
+			"club_6_sub_4"
+		],
+		"kind": "domestic",
+		"name": "미라지"
+	},
+	{
+		"division": 2,
+		"emblem": {
+			"alias_of": "expansion_06",
+			"asset_id": "expansion_06",
+			"path": "assets/clubs/expansion_06.png"
+		},
+		"id": "club_7",
+		"initial_roster_ids": [
+			"club_7_player_0",
+			"club_7_player_1",
+			"club_7_player_2",
+			"club_7_player_3",
+			"club_7_sub_4"
+		],
+		"kind": "domestic",
+		"name": "아이언"
+	},
+	{
+		"division": 1,
+		"emblem": {
+			"alias_of": null,
+			"asset_id": "club_8",
+			"path": "assets/clubs/club_8.png"
+		},
+		"id": "club_8",
+		"initial_roster_ids": [
+			"club_8_player_0",
+			"club_8_player_1",
+			"club_8_player_2",
+			"club_8_player_3",
+			"club_8_sub_4"
+		],
+		"kind": "domestic",
+		"name": "블레이즈"
+	},
+	{
+		"division": 1,
+		"emblem": {
+			"alias_of": null,
+			"asset_id": "club_9",
+			"path": "assets/clubs/club_9.png"
+		},
+		"id": "club_9",
+		"initial_roster_ids": [
+			"club_9_player_0",
+			"club_9_player_1",
+			"club_9_player_2",
+			"club_9_player_3",
+			"club_9_sub_4"
+		],
+		"kind": "domestic",
+		"name": "루미너스"
+	},
+	{
+		"division": null,
+		"emblem": {
+			"alias_of": "unaffiliated",
+			"asset_id": "unaffiliated",
+			"path": "assets/clubs/unaffiliated.png"
+		},
+		"id": "free_agents",
+		"initial_roster_ids": [
+			"free_0",
+			"free_1",
+			"free_2",
+			"free_3"
+		],
+		"kind": "free_agents",
+		"name": "자유계약"
+	},
+	{
+		"division": null,
+		"emblem": {
+			"alias_of": "unaffiliated",
+			"asset_id": "unaffiliated",
+			"path": "assets/clubs/unaffiliated.png"
+		},
+		"id": "open_a",
+		"initial_roster_ids": [
+			"open_a_0",
+			"open_a_1",
+			"open_a_2"
+		],
+		"kind": "unaffiliated_group",
+		"name": "무소속 A"
+	},
+	{
+		"division": null,
+		"emblem": {
+			"alias_of": "unaffiliated",
+			"asset_id": "unaffiliated",
+			"path": "assets/clubs/unaffiliated.png"
+		},
+		"id": "open_b",
+		"initial_roster_ids": [
+			"open_b_0",
+			"open_b_1",
+			"open_b_2"
+		],
+		"kind": "unaffiliated_group",
+		"name": "무소속 B"
+	},
+	{
+		"division": null,
+		"emblem": {
+			"alias_of": null,
+			"asset_id": "world_a",
+			"path": "assets/clubs/world_a.png"
+		},
+		"id": "world_a",
+		"initial_roster_ids": [
+			"world_a_0",
+			"world_a_1",
+			"world_a_2"
+		],
+		"kind": "international",
+		"name": "솔라리스"
+	},
+	{
+		"division": null,
+		"emblem": {
+			"alias_of": null,
+			"asset_id": "world_b",
+			"path": "assets/clubs/world_b.png"
+		},
+		"id": "world_b",
+		"initial_roster_ids": [
+			"world_b_0",
+			"world_b_1",
+			"world_b_2"
+		],
+		"kind": "international",
+		"name": "아틀라스"
+	},
+	{
+		"division": null,
+		"emblem": {
+			"alias_of": "world_b",
+			"asset_id": "world_b",
+			"path": "assets/clubs/world_b.png"
+		},
+		"id": "world_c",
+		"initial_roster_ids": [
+			"world_c_0",
+			"world_c_1",
+			"world_c_2"
+		],
+		"kind": "international",
+		"name": "노바"
+	},
+	{
+		"division": null,
+		"emblem": {
+			"alias_of": "world_a",
+			"asset_id": "world_a",
+			"path": "assets/clubs/world_a.png"
+		},
+		"id": "world_d",
+		"initial_roster_ids": [
+			"world_d_0",
+			"world_d_1",
+			"world_d_2"
+		],
+		"kind": "international",
+		"name": "오리온"
+	},
+	{
+		"division": null,
+		"emblem": {
+			"alias_of": "world_b",
+			"asset_id": "world_b",
+			"path": "assets/clubs/world_b.png"
+		},
+		"id": "world_e",
+		"initial_roster_ids": [
+			"world_e_0",
+			"world_e_1",
+			"world_e_2"
+		],
+		"kind": "international",
+		"name": "제니스"
+	},
+	{
+		"division": null,
+		"emblem": {
+			"alias_of": "world_a",
+			"asset_id": "world_a",
+			"path": "assets/clubs/world_a.png"
+		},
+		"id": "world_f",
+		"initial_roster_ids": [
+			"world_f_0",
+			"world_f_1",
+			"world_f_2"
+		],
+		"kind": "international",
+		"name": "세라프"
+	},
+	{
+		"division": null,
+		"emblem": {
+			"alias_of": "world_b",
+			"asset_id": "world_b",
+			"path": "assets/clubs/world_b.png"
+		},
+		"id": "world_g",
+		"initial_roster_ids": [
+			"world_g_0",
+			"world_g_1",
+			"world_g_2"
+		],
+		"kind": "international",
+		"name": "볼텍스"
+	},
+	{
+		"division": null,
+		"emblem": {
+			"alias_of": "world_a",
+			"asset_id": "world_a",
+			"path": "assets/clubs/world_a.png"
+		},
+		"id": "world_h",
+		"initial_roster_ids": [
+			"world_h_0",
+			"world_h_1",
+			"world_h_2"
+		],
+		"kind": "international",
+		"name": "코멧"
+	},
+	{
+		"division": null,
+		"emblem": {
+			"alias_of": "world_b",
+			"asset_id": "world_b",
+			"path": "assets/clubs/world_b.png"
+		},
+		"id": "world_i",
+		"initial_roster_ids": [
+			"world_i_0",
+			"world_i_1",
+			"world_i_2"
+		],
+		"kind": "international",
+		"name": "아크"
+	},
+	{
+		"division": null,
+		"emblem": {
+			"alias_of": "world_a",
+			"asset_id": "world_a",
+			"path": "assets/clubs/world_a.png"
+		},
+		"id": "world_j",
+		"initial_roster_ids": [
+			"world_j_0",
+			"world_j_1",
+			"world_j_2"
+		],
+		"kind": "international",
+		"name": "퀘이사"
+	},
+	{
+		"division": null,
+		"emblem": {
+			"alias_of": "world_b",
+			"asset_id": "world_b",
+			"path": "assets/clubs/world_b.png"
+		},
+		"id": "world_k",
+		"initial_roster_ids": [
+			"world_k_0",
+			"world_k_1",
+			"world_k_2"
+		],
+		"kind": "international",
+		"name": "네뷸라"
+	},
+	{
+		"division": null,
+		"emblem": {
+			"alias_of": "world_a",
+			"asset_id": "world_a",
+			"path": "assets/clubs/world_a.png"
+		},
+		"id": "world_l",
+		"initial_roster_ids": [
+			"world_l_0",
+			"world_l_1",
+			"world_l_2"
+		],
+		"kind": "international",
+		"name": "폴라리스"
+	},
+	{
+		"division": null,
+		"emblem": {
+			"alias_of": "world_b",
+			"asset_id": "world_b",
+			"path": "assets/clubs/world_b.png"
+		},
+		"id": "world_m",
+		"initial_roster_ids": [
+			"world_m_0",
+			"world_m_1",
+			"world_m_2"
+		],
+		"kind": "international",
+		"name": "이그니스"
+	},
+	{
+		"division": null,
+		"emblem": {
+			"alias_of": "world_a",
+			"asset_id": "world_a",
+			"path": "assets/clubs/world_a.png"
+		},
+		"id": "world_n",
+		"initial_roster_ids": [
+			"world_n_0",
+			"world_n_1",
+			"world_n_2"
+		],
+		"kind": "international",
+		"name": "셀레스"
+	},
+	{
+		"division": null,
+		"emblem": {
+			"alias_of": "world_b",
+			"asset_id": "world_b",
+			"path": "assets/clubs/world_b.png"
+		},
+		"id": "world_o",
+		"initial_roster_ids": [
+			"world_o_0",
+			"world_o_1",
+			"world_o_2"
+		],
+		"kind": "international",
+		"name": "레버넌트"
+	},
+	{
+		"division": null,
+		"emblem": {
+			"alias_of": "world_a",
+			"asset_id": "world_a",
+			"path": "assets/clubs/world_a.png"
+		},
+		"id": "world_p",
+		"initial_roster_ids": [
+			"world_p_0",
+			"world_p_1",
+			"world_p_2"
+		],
+		"kind": "international",
+		"name": "크로노스"
+	}
+]
