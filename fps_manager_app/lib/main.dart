@@ -4,6 +4,9 @@ import 'game_data.dart';
 import 'models.dart';
 import 'match_screen.dart';
 import 'team_selection_screen.dart';
+import 'save_manager.dart';
+import 'league_system.dart';
+import 'league_dashboard_screen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -57,7 +60,7 @@ class TitleScreen extends StatelessWidget {
                 gradient: LinearGradient(
                   colors: [
                     Colors.black,
-                    Colors.black.withOpacity(0.8),
+                    Colors.black.withValues(alpha: 0.8),
                     Colors.transparent,
                   ],
                   stops: const [0.0, 0.3, 0.6],
@@ -68,55 +71,162 @@ class TitleScreen extends StatelessWidget {
             ),
           ),
           Positioned(
-            left: 80,
-            bottom: 80,
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                OutlinedButton(
-                  onPressed: () {
-                    Navigator.of(context).push(
-                      MaterialPageRoute(
-                        builder: (_) => const TeamSelectionScreen(),
+            left: 60,
+            top: 0,
+            bottom: 0,
+            child: SafeArea(
+              child: SizedBox(
+                width: 220,
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    OutlinedButton(
+                      onPressed: () {
+                        Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (_) => const TeamSelectionScreen(),
+                          ),
+                        );
+                      },
+                      style: OutlinedButton.styleFrom(
+                        foregroundColor: Colors.tealAccent,
+                        side: const BorderSide(color: Colors.tealAccent, width: 2),
+                        padding: const EdgeInsets.symmetric(vertical: 12),
+                        textStyle: const TextStyle(fontSize: 14, fontWeight: FontWeight.bold, letterSpacing: 1),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(4),
+                        ),
                       ),
-                    );
-                  },
-                  style: OutlinedButton.styleFrom(
-                    foregroundColor: Colors.tealAccent,
-                    side: const BorderSide(color: Colors.tealAccent, width: 2),
-                    padding: const EdgeInsets.symmetric(horizontal: 54, vertical: 22),
-                    textStyle: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold, letterSpacing: 2),
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(4),
+                      child: const Text('새로하기 (New Game)'),
                     ),
-                  ),
-                  child: const Text('게임 시작'),
-                ),
-                const SizedBox(height: 24),
-                OutlinedButton(
-                  onPressed: () {
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      const SnackBar(content: Text('설정 화면은 준비 중입니다.')),
-                    );
-                  },
-                  style: OutlinedButton.styleFrom(
-                    foregroundColor: Colors.white70,
-                    side: const BorderSide(color: Colors.white70, width: 2),
-                    padding: const EdgeInsets.symmetric(horizontal: 54, vertical: 22),
-                    textStyle: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold, letterSpacing: 2),
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(4),
+                    const SizedBox(height: 12),
+                    OutlinedButton(
+                      onPressed: () {
+                        _showLoadDialog(context);
+                      },
+                      style: OutlinedButton.styleFrom(
+                        foregroundColor: Colors.white,
+                        side: const BorderSide(color: Colors.white, width: 2),
+                        padding: const EdgeInsets.symmetric(vertical: 12),
+                        textStyle: const TextStyle(fontSize: 14, fontWeight: FontWeight.bold, letterSpacing: 1),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(4),
+                        ),
+                      ),
+                      child: const Text('불러오기 (Load Game)'),
                     ),
-                  ),
-                  child: const Text('설정 옵션'),
+                    const SizedBox(height: 12),
+                    OutlinedButton(
+                      onPressed: () {
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          const SnackBar(content: Text('설정 화면은 준비 중입니다.')),
+                        );
+                      },
+                      style: OutlinedButton.styleFrom(
+                        foregroundColor: Colors.white70,
+                        side: const BorderSide(color: Colors.white70, width: 2),
+                        padding: const EdgeInsets.symmetric(vertical: 12),
+                        textStyle: const TextStyle(fontSize: 14, fontWeight: FontWeight.bold, letterSpacing: 1),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(4),
+                        ),
+                      ),
+                      child: const Text('설정 (Settings)'),
+                    ),
+                  ],
                 ),
-              ],
+              ),
             ),
           ),
         ],
       ),
     );
+  }
+
+  void _showLoadDialog(BuildContext context) {
+    showDialog(
+      context: context,
+      builder: (context) {
+        return AlertDialog(
+          title: const Text('게임 불러오기'),
+          content: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              ListTile(
+                title: const Text('자동 저장 (Auto Save)'),
+                leading: const Icon(Icons.save),
+                onTap: () => _loadSave(context, null),
+              ),
+              ListTile(
+                title: const Text('수동 저장 1 (Manual 1)'),
+                leading: const Icon(Icons.save_alt),
+                onTap: () => _loadSave(context, 1),
+              ),
+              ListTile(
+                title: const Text('수동 저장 2 (Manual 2)'),
+                leading: const Icon(Icons.save_alt),
+                onTap: () => _loadSave(context, 2),
+              ),
+              ListTile(
+                title: const Text('수동 저장 3 (Manual 3)'),
+                leading: const Icon(Icons.save_alt),
+                onTap: () => _loadSave(context, 3),
+              ),
+            ],
+          ),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(context),
+              child: const Text('닫기'),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+  Future<void> _loadSave(BuildContext context, int? manualSlot) async {
+    Navigator.pop(context); // close dialog
+    final save = manualSlot == null ? await SaveManager.loadAuto() : await SaveManager.loadManual(manualSlot);
+    if (save == null) {
+      if (context.mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('저장된 데이터가 없습니다.')));
+      }
+      return;
+    }
+    
+    final data = await GameData.load();
+    
+    // Apply custom rosters if they exist
+    for (final club in data.clubs) {
+      if (save.customRosters.containsKey(club.id)) {
+        club.rosterIds = save.customRosters[club.id]!;
+      }
+    }
+
+    final myClub = data.clubs.firstWhere((c) => c.id == save.myClubId);
+    final div1 = save.div1Ids.map((id) => data.clubs.firstWhere((c) => c.id == id)).toList();
+    final div2 = save.div2Ids.map((id) => data.clubs.firstWhere((c) => c.id == id)).toList();
+    
+    final div1Schedule = LeagueSystem.generateDoubleRoundRobin(div1);
+    final div2Schedule = LeagueSystem.generateDoubleRoundRobin(div2);
+
+    if (context.mounted) {
+      Navigator.of(context).pushReplacement(
+        MaterialPageRoute(
+          builder: (_) => LeagueDashboardScreen(
+            data: data,
+            myClub: myClub,
+            div1: div1,
+            div2: div2,
+            div1Schedule: div1Schedule,
+            div2Schedule: div2Schedule,
+            loadedSave: save, // Need to add this to LeagueDashboardScreen
+          ),
+        ),
+      );
+    }
   }
 }
 

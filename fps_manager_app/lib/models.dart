@@ -12,36 +12,45 @@ class Player {
     required this.clubId,
     required this.slot,
     required this.portrait,
-    required this.skills,
-    required this.battle,
-    required this.operation,
+    required this.aim,
+    required this.reaction,
+    required this.judgment,
+    required this.aggression,
+    required this.description,
+    required this.tag,
   });
   final String id;
   final String name;
   final String clubId;
   final int slot;
   final String portrait;
-  final Map<String, dynamic> skills;
-  final int battle;
-  final int operation;
+  final int aim;
+  final int reaction;
+  final int judgment;
+  final int aggression;
+  final String description;
+  final String tag;
+
+  String get sourcePortrait {
+    if (portrait.isEmpty) return '';
+    final filename = portrait.split('/').last;
+    return 'assets/players/source/players_$filename';
+  }
 
   Map<String, dynamic> get matchAttributes {
-    final aim = _rating(skills['micro'], battle);
-    final judgment = _rating(skills['judgment']);
-    final aggression = _rating(skills['aggression']);
-    final reaction = _rating(operation);
+    final recoil = {
+      'pistol': (aim - 2).clamp(1, 99),
+      'smg': (aim + 1).clamp(1, 99),
+      'rifle': aim.clamp(1, 99),
+      'sniper': ((aim + judgment) ~/ 2).clamp(1, 99),
+      'shotgun': ((aim + aggression) ~/ 2).clamp(1, 99),
+    };
     return {
       'aim': aim,
       'reaction': reaction,
       'judgment': judgment,
       'aggression': aggression,
-      'recoil': {
-        'pistol': _rating(aim - 2),
-        'smg': _rating(aim + 1),
-        'rifle': _rating(aim),
-        'sniper': _rating((aim + judgment) ~/ 2),
-        'shotgun': _rating((aim + aggression) ~/ 2),
-      },
+      'recoil': recoil,
     };
   }
 
@@ -64,16 +73,39 @@ class Player {
         .clamp(1, 99);
   }
 
-  factory Player.fromJson(Map<String, dynamic> json) => Player(
-    id: json['id'] as String,
-    name: json['name'] as String,
-    clubId: json['club_id'] as String,
-    slot: (json['roster_slot'] as num?)?.toInt() ?? 0,
-    portrait: ((json['portrait'] as Map?)?['path'] as String?) ?? '',
-    skills: Map<String, dynamic>.from(json['skills'] as Map? ?? const {}),
-    battle: _rating(json['battle']),
-    operation: _rating(json['operation']),
-  );
+  factory Player.fromJson(Map<String, dynamic> json) {
+    String originalPortrait = ((json['portrait'] as Map?)?['path'] as String?) ?? '';
+    String mappedPortrait = originalPortrait;
+
+    // 16개의 원본 사진이 존재하는 에셋으로 강제 매핑 (매칭 실패 방지)
+    if (originalPortrait.isNotEmpty &&
+        !originalPortrait.contains('club_4_') &&
+        !originalPortrait.contains('club_5_') &&
+        !originalPortrait.contains('club_6_') &&
+        !originalPortrait.contains('club_7_')) {
+      final String idStr = (json['id'] ?? '') as String;
+      final int hash = idStr.hashCode.abs();
+      final int clubId = 4 + (hash % 4);
+      final int playerId = (hash ~/ 4) % 4;
+      mappedPortrait = 'assets/players/club_${clubId}_player_$playerId.png';
+    }
+
+    final stats = json['stats'] as Map<String, dynamic>? ?? {};
+
+    return Player(
+      id: (json['id'] ?? '') as String,
+      name: (json['name'] ?? '') as String,
+      clubId: (json['clubId'] ?? json['club_id'] ?? '') as String,
+      slot: ((json['slot'] ?? json['roster_slot']) as num?)?.toInt() ?? 0,
+      portrait: mappedPortrait,
+      aim: _rating(stats['aim']),
+      reaction: _rating(stats['reaction']),
+      judgment: _rating(stats['judgment']),
+      aggression: _rating(stats['aggression']),
+      description: json['description'] as String? ?? '선수 정보가 없습니다.',
+      tag: json['tag'] as String? ?? '엔트리 프래거',
+    );
+  }
 
   Map<String, dynamic> toMatchJson(int index) {
     const roles = ['entry', 'support', 'sniper', 'lurk', 'anchor'];
@@ -92,7 +124,7 @@ class Player {
 }
 
 class Club {
-  const Club({
+  Club({
     required this.id,
     required this.name,
     required this.logo,
@@ -103,7 +135,7 @@ class Club {
   final String id;
   final String name;
   final String logo;
-  final List<String> rosterIds;
+  List<String> rosterIds;
   final String kind;
   final int? division;
 

@@ -159,7 +159,7 @@ body.game-only .game-objective{display:none!important}
 
 </style>
 </head>
-<body>
+<body class="game-only">
 <header class="top">
  <div class="brand"><div class="brand-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8V3h5M16 3h5v5M21 16v5h-5M8 21H3v-5M7 12h10M12 7v10"/><circle cx="12" cy="12" r="3"/></svg></div><div><h1>TACTICAL LAB</h1><p>FPS TEAM MANAGER · PROTOTYPE 03</p></div></div>
  <div class="top-copy">선수의 실력과 판단이, 팀의 전술이 되다.<br><span class="muted">5대5 탑뷰 전술 경기 · 오프라인 테스트 빌드</span></div>
@@ -281,7 +281,7 @@ body.game-only .game-objective{display:none!important}
   </div>
  </aside>
 </main>
-<footer class="small-footer"><span>PROTOTYPE 10 / 5R SIDE SWAP + ROUND HISTORY + TIME PRESSURE AI · 자체 제작 가상 팀·선수·무기 · 외부 라이브러리 및 네트워크 요청 없음</span><span><kbd>SPACE</kbd> 재생/정지 &nbsp; <kbd>R</kbd> 동일 조건 준비 &nbsp; <kbd>V</kbd> 시야 ON/OFF</span></footer>
+<footer class="small-footer"><span>PROTOTYPE 11 / SWITCHBACK TRAFFIC AI + 5R SIDE SWAP + TIME PRESSURE · 자체 제작 가상 팀·선수·무기 · 외부 라이브러리 및 네트워크 요청 없음</span><span><kbd>SPACE</kbd> 재생/정지 &nbsp; <kbd>R</kbd> 동일 조건 준비 &nbsp; <kbd>V</kbd> 시야 ON/OFF</span></footer>
 <div class="toast" id="toast" role="status"></div>
 <script>
 'use strict';
@@ -309,7 +309,7 @@ const UTILITIES={
  flash:{name:'섬광탄',short:'F',price:200,throwRange:380,fuse:.62,radius:155},
  grenade:{name:'수류탄',short:'HE',price:300,throwRange:385,fuse:.76,radius:118,maxDamage:62}
 };
-const ECONOMY={startCash:1000,maxCash:9000,buyDuration:10,armorPrice:650,armorMax:100,winIncome:3250,lossBase:1900,lossStep:500,lossCap:3400,killReward:300,smgKillReward:600};
+const ECONOMY={startCash:1000,maxCash:9000,buyDuration:5,armorPrice:650,armorMax:100,winIncome:3250,lossBase:1900,lossStep:500,lossCap:3400,killReward:300,smgKillReward:600};
 
 const ROLES={entry:'진입',support:'지원',sniper:'스나이퍼',lurk:'우회',anchor:'거점 수비'};
 const TACTICS={rushA:'A 집중 공격',rushB:'B 집중 공격',splitB:'B 양방향 진입',rearFlank:'외곽 우회 → 후방 침투',fakeAB:'A 양동 → B 전환',default:'분산 정찰 → 판단',rushC:'C 중앙 공격'};
@@ -442,7 +442,7 @@ class Simulation {
   this.players=this.profiles.map((s,i)=>{let idx=s.slot??Number(s.id.slice(1)),sp=s.team==='T'?point(4+idx%2,13+idx):point(44+idx%2,13+idx+(idx>=3?2:0)),eco=s.economy||null,weapon=eco?(eco.savedWeapon&&WEAPONS[eco.savedWeapon]?eco.savedWeapon:'pistol'):s.weapon,utility=eco?.savedUtility||null,armor=eco?.armor||0,cash=eco?.cash??0;return{...clone(s),preferredWeapon:s.weapon,weapon,slot:idx,slotId:(s.team==='T'?'t':'c')+idx,...sp,hp:100,armor,cash,buyStyle:'',buySpent:0,alive:true,angle:s.team==='T'?0:Math.PI,ammo:WEAPONS[weapon].mag,reloadUntil:0,cooldown:0,recoilOffset:0,burst:0,burstRest:0,aimError:0,errorAt:0,visible:new Map(),memory:{},perceiveAt:idx*.023,reportAt:0,heard:null,heardAt:-1,route:[],path:[],goalKey:'',state:'대기',target:null,reactionAt:0,lastContact:-20,channel:false,moveSpeed:0,vx:0,vy:0,footAt:0,utility,utilityUsed:false,utilityThrownAt:-99,utilityThinkAt:0,utilityPlanReason:'',utilityBlockedRound:false,blindedUntil:0,prefireAt:0,prefireEnd:0,prefirePoint:null,prefireReason:'',prefireKind:'',prefireConfidence:0,prefireCount:0,prefireLogged:false,prefireBlockedRound:false,rangeSenseTarget:null,rangeSenseUntil:0,rangeSenseFactor:1,rangeSenseActual:true,rangeSensePerceived:0,kills:0,deaths:0,assists:0,damageSources:{},damage:0,fired:0,hits:0,gateSince:null,scanSeed:this.rng.next()*TAU,lastPlan:'',turnPause:0,motion:0,evadeUntil:0,evadeAt:0,evadeDir:1,evadeTravel:0,underFireUntil:0,hurtAt:-99,trail:[],heardSerial:0,cue:null,cueResponse:null,action:null,holdUntil:0,holdAngle:0,plantFakes:0,defuseFakes:0,weaponReadyAt:0,badge:'',badgeUntil:0,lastShotMotion:0};});
   this.bomb.carrier=this.players.find(p=>p.team==='T'&&p.slot===3)?.id||this.players.find(p=>p.team==='T')?.id;
   if(this.economyEnabled)this.autoBuyLoadouts();else if(this.config.utilityAi)this.assignUtilities();
-  this.assignOpening();this.log('public','READY',this.economyEnabled?'10초 구매 페이즈 후 라운드가 시작됩니다.':'선수를 선택해 능력치를 조정한 뒤 라운드를 시작하세요.');
+  this.assignOpening();this.log('public','READY',this.economyEnabled?'5초 구매 페이즈 후 라운드가 시작됩니다.':'선수를 선택해 능력치를 조정한 뒤 라운드를 시작하세요.');
  }
  activeSites(){return this.config.sites===3?['A','B','C']:['A','B'];}
  log(team,type,text){const event={time:this.time,team,type,text};this.events.push(event);this.logs.unshift(event);if(this.logs.length>110)this.logs.length=110;}
@@ -541,8 +541,25 @@ class Simulation {
  defendPosition(p,site,offset=0){
   const n=p.slot,positions={A:[[35,7],[34,10],[37,7],[32,10],[35,4]],B:[[35,25],[34,22],[37,25],[32,22],[35,28]],C:[[31,16],[30,13],[28,19],[32,16],[25,19]]};let c=positions[site][(n+offset)%5];return point(c[0],c[1]);
  }
+ switchbackAttackRoute(p,site,alternate=false){
+  // SWITCHBACK is intentionally narrow. Do not send the whole squad through one shortest path.
+  // Two authored approaches delay the merge until the final chamber and keep close-range traffic flowing.
+  const upperDirect=[point(8,15),point(12,14),point(12,10),point(17,10),point(21,10),point(21,15),point(25,14),point(28,14),point(30,12),point(31,8)];
+  const upperCross =[point(8,17),point(12,18),point(12,22),point(17,22),point(21,22),point(21,17),point(24,16),point(28,16),point(30,13),point(30,9),point(34,9)];
+  const lowerDirect=[point(8,17),point(12,18),point(12,22),point(17,22),point(21,22),point(21,17),point(25,18),point(28,18),point(30,20),point(31,24)];
+  const lowerCross =[point(8,15),point(12,14),point(12,10),point(17,10),point(21,10),point(21,15),point(24,16),point(28,16),point(30,19),point(30,23),point(34,23)];
+  const useCross=alternate||p.role==='lurk'||p.slot===4;
+  let r=clone(site==='A'?(useCross?upperCross:upperDirect):(useCross?lowerCross:lowerDirect));
+  const s=this.map.sites[site];
+  const entries=site==='A'?[point(32,8),point(34,9),point(35,8),point(33,9),point(36,8)]:[point(32,24),point(34,23),point(35,24),point(33,23),point(36,24)];
+  let end=p.id===this.bomb.carrier?{x:s.x,y:s.y}:entries[p.slot%entries.length];
+  // Snipers stop one bend earlier instead of clogging the plant chamber.
+  if(p.role==='sniper'&&p.id!==this.bomb.carrier)end=site==='A'?point(30,9):point(30,23);
+  r.push(end);return r;
+ }
  attackRoute(p,site,flank=false){
   let idx=p.slot,r=[];
+  if(this.map.id==='switchback')return this.switchbackAttackRoute(p,site,flank||p.slot%2===1);
   if(this.map.id==='ring'&&p.role==='lurk'&&(flank||this.config.tactic==='rearFlank')){
    const rear=site==='A'?point(38,9):site==='B'?point(39,24):point(39,16);
    r=[point(4,12),point(3,2),point(22,2),point(44,2),point(44,11),point(42,16),rear];
@@ -582,6 +599,10 @@ class Simulation {
  }
  urgentEntryPoint(siteId,p,stage=1){
   const s=this.map.sites[siteId];if(!s)return null;if(p.id===this.bomb.carrier)return{x:s.x,y:s.y};
+  if(this.map.id==='switchback'){
+   const pts=siteId==='A'?[point(31,8),point(34,9),point(30,9),point(35,8),point(33,9)]:[point(31,24),point(34,23),point(30,23),point(35,24),point(33,23)];
+   return pts[p.slot%pts.length];
+  }
   const offsets=stage>=3?[[-34,-34],[-34,34],[-58,0],[-16,-58],[-16,58]]:[[-86,-54],[-86,54],[-70,0],[-48,-78],[-48,78]];
   const o=offsets[p.slot%offsets.length],raw={x:s.x+o[0],y:s.y+o[1]},n=this.map.nearest(raw);return point(n%COLS,Math.floor(n/COLS));
  }
@@ -600,7 +621,11 @@ class Simulation {
   for(const p of this.alive('T')){
    p.gateSince=null;p.holdUntil=0;
    let route;
-   if(stage===1){route=this.attackRoute(p,site,false).map(g=>{const q={...g};delete q.wait;delete q.gate;return q;});if(route.length>3)route=route.slice(-3);}
+   if(this.map.id==='switchback'){
+    route=this.switchbackAttackRoute(p,site,p.slot%2===1).map(g=>{const q={...g};delete q.wait;delete q.gate;return q;});
+    // Under pressure keep enough authored bends to preserve the two-lane split instead of pathfinding everyone to one choke.
+    if(stage===1&&route.length>6)route=route.slice(-6);else if(stage>=2&&route.length>5)route=route.slice(-5);
+   }else if(stage===1){route=this.attackRoute(p,site,false).map(g=>{const q={...g};delete q.wait;delete q.gate;return q;});if(route.length>3)route=route.slice(-3);}
    else{const goal=this.urgentEntryPoint(site,p,stage);route=goal?[goal]:[{x:this.map.sites[site].x,y:this.map.sites[site].y}];}
    this.route(p,route,label,0);this.metrics.urgencyReroutes++;
   }
@@ -837,9 +862,18 @@ class Simulation {
   let k=Object.values(this.knowledge[p.team]).filter(o=>this.time-o.time<4&&dist(p,o)<260).sort((a,b)=>b.time-a.time)[0];
   if(k&&this.map.los(p,k))desired=Math.atan2(k.y-p.y,k.x-p.x);else if(p.heard&&this.time-p.heard.time<1.4)desired=Math.atan2(p.heard.y-p.y,p.heard.x-p.x);
   this.steer(p,desired,dt);
-  const urgentRun=p.team==='T'&&this.bomb.state!=='planted'&&this.roundTimeLeft()<=35;let walking=p.role==='lurk'&&this.time>8&&!urgentRun;let speed=WEAPONS[p.weapon].speed*(walking?.72:1)*(p.reloadUntil>this.time?.72:1);let n=Math.min(speed*dt,d);
+  const urgentRun=p.team==='T'&&this.bomb.state!=='planted'&&this.roundTimeLeft()<=35;let walking=p.role==='lurk'&&this.time>8&&!urgentRun;let speed=WEAPONS[p.weapon].speed*(walking?.72:1)*(p.reloadUntil>this.time?.72:1);
+  const narrowSwitchback=this.map.id==='switchback';
+  if(narrowSwitchback){
+   // In a one/two-cell bend, lateral separation pushes players into walls and creates oscillation.
+   // Queue behind a teammate already moving in the same direction instead.
+   let front=Infinity;
+   for(const q of this.alive(p.team)){if(q.id===p.id)continue;const rx=q.x-p.x,ry=q.y-p.y,forward=rx*dx+ry*dy,lateral=Math.abs(-rx*dy+ry*dx);if(forward>0&&forward<34&&lateral<15)front=Math.min(front,forward);}
+   if(front<17)speed*=.08;else if(front<25)speed*=.38;else if(front<34)speed*=.68;
+  }
+  let n=Math.min(speed*dt,d);
   let sx=0,sy=0;for(let q of this.alive(p.team)){if(q.id===p.id)continue;let dd=dist(p,q);if(dd>0&&dd<22){sx+=(p.x-q.x)/dd*(22-dd)*2.4;sy+=(p.y-q.y)/dd*(22-dd)*2.4;}}
-  let side=sx*(-dy)+sy*dx;side=clamp(side,-18,18);if(d<13)side=0;let nx=p.x+dx*n-dy*side*dt,ny=p.y+dy*n+dx*side*dt;
+  let side=sx*(-dy)+sy*dx;side=narrowSwitchback?0:clamp(side,-18,18);if(d<13)side=0;let nx=p.x+dx*n-dy*side*dt,ny=p.y+dy*n+dx*side*dt;
   if(this.map.free(nx,ny,8)){p.x=nx;p.y=ny;}else{if(this.map.free(nx,p.y,8))p.x=nx;if(this.map.free(p.x,ny,8))p.y=ny;}
   p.moveSpeed=speed;
   if(Math.hypot(nx-p.x,ny-p.y)>n*.65){p.blockedFor=(p.blockedFor||0)+dt;if(p.blockedFor>.4){p.path=[];p.goalKey='';p.blockedFor=0;}}else p.blockedFor=0;
@@ -1886,8 +1920,8 @@ matchSeed=randomMatchSeed();$('seed').value=String(matchSeed);match.baseSeed=mat
 
 <script>
 'use strict';
-// Production-facing broadcast layer. The original development controls remain in the DOM
-// for engine compatibility but are hidden in GAME VIEW.
+// Production-facing broadcast layer. BODY already starts in game-only mode to prevent
+// the development/settings UI from flashing before the WebView bridge initializes.
 document.body.classList.add('game-only');
 if(document.getElementById('autoNext'))document.getElementById('autoNext').checked=true;
 showRoute=false;
@@ -2013,7 +2047,7 @@ function initializeBridge(input){
   const cfg=typeof input==='string'?JSON.parse(input):clone(input);if(!cfg||cfg.schemaVersion!==1)throw new Error('Unsupported schemaVersion; expected 1');
   if(!cfg.teamA||!cfg.teamB||cfg.teamA.players?.length!==5||cfg.teamB.players?.length!==5)throw new Error('Exactly five players are required for each team');
   const externalMap=String(cfg.map?.id||'industrial'),engineMap=externalMap==='service_ring'?'ring':externalMap;if(!MAP_PRESETS[engineMap])throw new Error(`Unsupported map: ${externalMap}`);
-  const economyEnabled=cfg.economy?.enabled!==false;ECONOMY.startCash=bounded(cfg.economy?.startCash,1000,0,999999);ECONOMY.maxCash=bounded(cfg.economy?.maxCash,9000,0,999999);ECONOMY.buyDuration=bounded(cfg.rules?.buyDuration,10,0,120);
+  const economyEnabled=cfg.economy?.enabled!==false;ECONOMY.startCash=bounded(cfg.economy?.startCash,1000,0,999999);ECONOMY.maxCash=bounded(cfg.economy?.maxCash,9000,0,999999);ECONOMY.buyDuration=5;
   profiles=[...cfg.teamA.players.map((p,i)=>normalizeBridgePlayer(p,'EMBER','T',i,economyEnabled)),...cfg.teamB.players.map((p,i)=>normalizeBridgePlayer(p,'TIDE','CT',i,economyEnabled))];
   const rules={targetWins:6,swapEvery:5,tieAt:5,alternateAfterTie:true,overtimeMode:'win_by_two',overtimeLead:2,overtimeWins:0};
   const suppliedSeed=Number(cfg.seed);matchSeed=Number.isFinite(suppliedSeed)&&suppliedSeed>=1?clamp(Math.floor(suppliedSeed),1,4294967295):randomMatchSeed();roundNo=1;selected=profiles[0].id;matchEndSent=false;

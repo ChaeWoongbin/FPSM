@@ -74,7 +74,7 @@ class _MatchScreenState extends State<MatchScreen> {
   @override
   Widget build(BuildContext context) => PopScope(
     canPop: false,
-    onPopInvoked: (didPop) {
+    onPopInvokedWithResult: (didPop, result) {
       if (didPop) return;
       _matchViewKey.currentState?.togglePause();
     },

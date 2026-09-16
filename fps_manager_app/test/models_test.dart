@@ -11,9 +11,12 @@ void main() {
       clubId: 'c1',
       slot: 0,
       portrait: '',
-      skills: {'micro': 110, 'judgment': 0, 'aggression': 70},
-      battle: 80,
-      operation: 75,
+      aim: 99,
+      reaction: 75,
+      judgment: 1,
+      aggression: 70,
+      description: '',
+      tag: '',
     );
     final json = player.toMatchJson(0);
     final attributes = json['attributes'] as Map<String, dynamic>;
@@ -29,9 +32,12 @@ void main() {
       clubId: 'c1',
       slot: 0,
       portrait: '',
-      skills: {'micro': 110, 'judgment': 0, 'aggression': 70},
-      battle: 80,
-      operation: 75,
+      aim: 99,
+      reaction: 75,
+      judgment: 1,
+      aggression: 70,
+      description: '',
+      tag: '',
     );
 
     final attributes = player.toMatchJson(0)['attributes']
@@ -56,9 +62,12 @@ void main() {
       clubId: 'c1',
       slot: 0,
       portrait: '',
-      skills: {'micro': -50, 'judgment': -50, 'aggression': -50},
-      battle: 1,
-      operation: 1,
+      aim: 1,
+      reaction: 1,
+      judgment: 1,
+      aggression: 1,
+      description: '',
+      tag: '',
     );
     const highPlayer = Player(
       id: 'high',
@@ -66,9 +75,12 @@ void main() {
       clubId: 'c1',
       slot: 0,
       portrait: '',
-      skills: {'micro': 150, 'judgment': 150, 'aggression': 150},
-      battle: 99,
-      operation: 99,
+      aim: 99,
+      reaction: 99,
+      judgment: 99,
+      aggression: 99,
+      description: '',
+      tag: '',
     );
 
     expect(lowPlayer.overall, 1);
